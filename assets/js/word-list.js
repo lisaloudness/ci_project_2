@@ -1,25 +1,25 @@
 const wordList = [
     {
         word: "atari",
-        hint: "/assets /images /logos.atari.gif"
+        hint: "/assets /images /logos/atari.gif"
     },
     {  
         word: "barclays",
-        hint: "/assets/images/logos.barclays.png"
+        hint: "/assets/images/logos/barclays.png"
     },
     {
         word: "x",
-        hint: "/assets/images/logos.x.png"
+        hint: "/assets/images/logos/x.png"
     },
     {
 
         word: "world wildlife fund",
-        hint: "/assets/images/logos.wwf.png"
+        hint: "/assets/images/logos/wwf.png"
     },
     {
 
         word: "windows xp",
-        hint: "/assets/images/logos.windows_xp.webp"
+        hint: "/assets/images/logos/windows_xp.webp"
     },
     {
 
@@ -177,8 +177,59 @@ const wordList = [
         hint: "assets/images/logos/batman.webp"
     },
     {
-
+        
         word: "barclays",
         hint: "/assets/images/logos/barclays.png"
     },
+    {
+        word: "adidas",
+        hint: "/assets/images/logos/adidas.jpg"
+    },
+    {
+        word: "android",
+        hint: "/assets/images/logos/android.png"
+    },
+    {
+        word: "apple",
+        hint: "/assets/images/logos/apple.jpg"
+    },
+    {
+        word: "bentley",
+            hint: "/assets/images/logos/bentley.jpg"
+    },
+    {
+        word: "goodyear",
+            hint: "/assets/images/logos/goodyear.jpg"
+    },
+    {
+        word: "mcdonalds",
+            hint: "/assets/images/logos/mcdonalds.webp"
+    },
+    {
+        word: "pepsi",
+            hint: "/assets/images/logos/pepsi.jpg"
+    },
+    {
+        word: "paypal",
+            hint: "/assets/images/logos/paypal.jpg"
+    },
+    {
+        word: "playboy",
+            hint: "/assets/images/logos/playboy.jpg"
+    },
+    {
+        word: "toyota",
+            hint: "/assets/images/logos/toyota.jpg"
+    },
+    {
+        word: "venmo",
+            hint: "/assets/images/logos/venmo.jpg"
+    },
+    {
+        word: "xerox",
+            hint: "/assets/images/logos/xerox.jpg"
+    }
+
+
+
 ];

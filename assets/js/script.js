@@ -10,7 +10,7 @@ const getRandomWord = () => {
     const { word, hint } = wordList[Math.floor(Math.random() * wordList.length)];
     currentWord = word;
     console.log(word);
-    document.querySelector(".logo-box").src = hint;
+    document.querySelector(".logo").src = hint;
     wordDisplay.innerHTML = word.split("").map(() => `<li class="letter"></li>`).join("");
 }
 
