@@ -13,7 +13,7 @@ const wordList = [
     },
     {
 
-        word: "world wildlife fund",
+        word: "wwf",
         hint: "/assets/images/logos/wwf.png"
     },
     {
@@ -68,7 +68,7 @@ const wordList = [
     },
     {
 
-        word: "royal bank of scotland",
+        word: "rbs",
         hint: "/assets/images/logos/royal_bank_of_scotland.png"
     },
     {
@@ -112,12 +112,7 @@ const wordList = [
         hint: "/assets/images/logos/micorsoft_windows.jpg"
     },
     {
-
-        word: "liverpool fc",
-        hint: "/assets/images/logos/liverpool_fc.png"
-    },
-    {
-
+     
         word: "kfc",
         hint: "/assets/images/logos/kfc.webp"
     },
@@ -177,7 +172,7 @@ const wordList = [
         hint: "assets/images/logos/batman.webp"
     },
     {
-        
+
         word: "barclays",
         hint: "/assets/images/logos/barclays.png"
     },
