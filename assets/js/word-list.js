@@ -1,8 +1,4 @@
 const wordList = [
-    {
-        word: "atari",
-        hint: "/assets /images /logos/atari.gif"
-    },
     {  
         word: "barclays",
         hint: "/assets/images/logos/barclays.png"
