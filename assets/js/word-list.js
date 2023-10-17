@@ -14,11 +14,6 @@ const wordList = [
     },
     {
 
-        word: "windows xp",
-        hint: "/assets/images/logos/windows_xp.webp"
-    },
-    {
-
         word: "wikipedia",
         hint: "/assets/images/logos/wikipedia.png"
     },
@@ -41,11 +36,6 @@ const wordList = [
 
         word: "tui",
         hint: "/assets/images/logos/tui.png"
-    },
-    {
-
-        word: "temple run",
-        hint: "/assets/images/logos/temple_run.png"
     },
     {
 
@@ -94,18 +84,13 @@ const wordList = [
     },
     {
 
-        word: "national trust",
-        hint: "/assets/images/logos/national_trust.png"
-    },
-    {
-
         word: "motorola",
         hint: "/assets/images/logos/motorola.png"
     },
     {
 
-        word: "micorsoft windows",
-        hint: "/assets/images/logos/micorsoft_windows.jpg"
+        word: "micorsoft",
+        hint: "/assets/images/logos/micorsoft.png"
     },
     {
      
@@ -113,24 +98,14 @@ const wordList = [
         hint: "/assets/images/logos/kfc.webp"
     },
     {
-
-        word: "john deere",
-        hint: "/assets/images/logos/john_deere.png"
-    },
-    {
-
+        
         word: "greggs",
         hint: "/assets/images/logos/greggs.png"
     },
     {
 
-        word: "google chrome",
-        hint: "/assets/images/logos/google_chrome.jpg"
-    },
-    {
-
         word: "firefox",
-  	hint: "/assets/images/logos/firefox.jpg"
+  	    hint: "/assets/images/logos/firefox.jpg"
     },
     {
 
@@ -146,11 +121,6 @@ const wordList = [
 
         word: "crocs",
         hint: "/assets/images/logos/crocs.png"
-    },
-    {
-
-        word: "candy crush",
-        hint: "/assets/images/logos/candy_crush.png"
     },
     {
 
@@ -220,7 +190,4 @@ const wordList = [
         word: "xerox",
             hint: "/assets/images/logos/xerox.jpg"
     }
-
-
-
 ];
