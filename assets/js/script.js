@@ -19,11 +19,11 @@ const gameOver = (isVictory) => {
     setTimeout(() => {
         const modalText = isVictory ?  `You found the word:` : `The correct word was:`;
         gameModal.querySelector("img").src = `images/${isVictory ? 'victory' : 'lost'}.gif`;
-        gameModal.querySelector("h4").src = `images/${isVictory ? 'victory' : 'lost'}.gif`;
-        gameModal.querySelector("img").src = `images/${isVictory ? 'victory' : 'lost'}.gif`;
+        gameModal.querySelector("h4").src.innerText = `${isVictory ? 'Yahoo!' : 'Wrong Answer!'}`;
+        gameModal.querySelector("img").src.innerHTML = `${modalText} <b>${currentWord}</b>`;
         gameModal.classList.add("show");
     }, 300);
-}
+} 
 const initGame = (button, clickedLetter) => {
     // check if clickedLetter exist on the currentWord    
     if (currentWord.includes(clickedLetter)) {
