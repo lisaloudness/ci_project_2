@@ -1,173 +1,74 @@
 /* Import Googlt Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Open+Sans:wght@400;500;600;700&family=Roboto&display=swap');
 
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Open Sans";
-    sans-serif;
+    font-family: "Nunito";
 }
 
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0 10px;
-    min-height: 100vh;
+    height: 100vh;
     background: #5e63ba;
 }
+.love-logo {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 45px;
+    letter-spacing: 00.20em;
 
+}
 .container {
-    width: 850px;
+    width: 700px;
+    max-width: 100%;
     background: #fff;
     display: flex;
     gap: 70px;
-    align-items: flex-end;
-    padding: 60px 40px;
+    align-items: center;
+    padding: 50px 40px;
     border-radius: 10px;
 }
-
 .logo-box h1 {
-    font-size: 1.45rem;
-    margin-top: 20px;
-    text-align: center;
-    text-transform: uppercase;
+    text-align: center
+    
 }
 
-.logo-box img {
-    max-width: 270px;
-
+.btn {
+            display: grid;
+            grid-template-columns: repeat(1,auto);
+            gap: 50px;
+            margin-left: 50px;
+}
+.control-btn {
+    background-color:#5e63ba;
+    border: 1px solid #353a9b;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+}
+.control-btn:hover {
+    background-color: #353a9b;
 }
 
-.word-display {
-    display: flex;
-    gap: 10px;
-    list-style: none;
-    align-items: center;
-    justify-content: center;
-}
 
-.word-display .letter {
-    width: 28px;
-    font-size: 2rem;
-    font-weight: 600;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    border-bottom: 3px solid #000
-}
 
-.word-display .letter.guessed {
-    border-color: transparent;
-    margin: -40px 0 35px;
-}
 
-.game-box .guesses-text {
-    text-align: center;
-    font-weight: 600;
-    font-size: 1.1rem;
-    margin-bottom: 15px
-}
 
-.game-box .guesses-text b {
-    color: #ff0000;
-}
 
-.game-box .keyboard {
-    display: flex;
-    gap: 5px;
-    margin-top: 40px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
-:where(.game-modal, .keyboard) button {
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    background: #5e63ba;
-    border-radius: 4px;
-    text-transform: uppercase;
 
-}
 
-.keyboard button {
-    padding: 7px;
-    width: calc(100% / 9 - 5px);
-}
-.keyboard button[disabled] {
-    opacity: 0.6;
-    pointer-events: none;
-}
-
-:where(.game-modal, .keyboard) button:hover {
-    background-color: #8286c9;
-}
-
-.game-modal {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    pointer-events: none;
-    display: flex;
-    z-index: 999;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.6);
-    transition: opacity 0.4s ease;
-}
-.game-modal.show {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.game-modal .content {
-    background: #fff;
-    max-width: 420px;
-    width: 100%;
-    text-align: center;
-    border-radius: 10px;
-    padding: 30px;
-}
-
-.game-modal img {
-    max-width: 130px;
-}
-
-.game-modal h4 {
-    font-size: 1.53rem;
-}
-
-.game-modal p {
-    font-size: 1.15rem;
-    margin: 15px 0 30px;
-    font-weight: 500;
-}
-
-.game-modal p b {
-    color: #5e63ba;
-    font-weight: 600;
-}
-
-.game-modal button {
-    padding: 12px 23px;
-}
-
-@media (max-width: 782px) {
-    .container {
-        flex-direction: column;
-        padding: 30px 15px;
-        align-items: center;
-    }
-
-    .logo-box img {
-        max-width: 200px;
-    }
+.hide {
+    display: none;
 }
