@@ -263,7 +263,7 @@ li {
     line-height: 22px;
     /* same as #progressBar height if we want text middle aligned */
     width: 0;
-    background-color: #d05656;
+    background: linear-gradient(to right, #d05656, #050ebf);
     box-sizing: border-box;
 }
 
