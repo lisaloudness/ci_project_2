@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         progressBar.style.display = "block";
     });
 
+
 //Timer Progress Bar//
     function progress(timeleft, timetotal, $element) {
         var progressBarWidth = timeleft * $element.width() / timetotal;
@@ -30,6 +31,14 @@ document.addEventListener("DOMContentLoaded", function () {
     };
     progress(122, 122, $('#progressBar'));
 
+    // retrieve random question from word-list;
+    const getRandomWord = () => {
+        const { word, hint } = wordList[Math.floor(Math.random() * wordList.length)];
+        currentWord = word;
+        console.log(word);
+        document.querySelector(".logo").src = hint;
+    }
+ 
 
 // create dynamic keyboard buttons and click event listener
 for (let i = 97; i <= 122; i++) {
@@ -40,4 +49,6 @@ for (let i = 97; i <= 122; i++) {
     console.log(String.fromCharCode(i));
 };
 
+
+    getRandomWord();
 });
