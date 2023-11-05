@@ -1,10 +1,10 @@
 /* Import Googlt Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Open+Sans:wght@400;500;600;700&family=Roboto&display=swap');
 
-*, *::before, *::after {
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     font-family: "Nunito";
 }
 
@@ -30,6 +30,7 @@ body {
     width: 800px;
     max-width: 100%;
     background: #fff;
+   
     display: flex;
     gap: 70px;
     align-items: center;
@@ -74,7 +75,7 @@ body {
 }
 
 .logo-box img {
-    transform: scale(0.75)
+    max-width: 270px;
 
 }
 
