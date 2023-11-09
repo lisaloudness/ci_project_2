@@ -17,6 +17,7 @@ body {
     height: 100vh;
     background: #5e63ba;
 }
+
 .love-logo {
     text-align: center;
     padding-bottom: 50px;
@@ -26,30 +27,33 @@ body {
     letter-spacing: 00.20em;
 
 }
+
 .container {
     width: 800px;
     max-width: 100%;
     background: #fff;
-   
+
     display: flex;
     gap: 70px;
     align-items: center;
     padding: 50px 40px;
     border-radius: 10px;
 }
+
 .logo-box h1 {
     text-align: center
-    
 }
 
 .btn {
-            display: grid;
-            grid-template-columns: repeat(1,auto);
-            gap: 50px;
-            margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 50px;
+    margin-left: 50px;
 }
-.control-btn, #start-btn {
-    background-color:#5e63ba;
+
+.control-btn,
+#start-btn {
+    background-color: #5e63ba;
     border: 1px solid #353a9b;
     border-radius: 5px;
     padding: 10px 20px;
@@ -58,15 +62,17 @@ body {
     font-weight: 700;
     letter-spacing: 0.20em;
 }
+
 .control-btn:hover {
     background-color: #353a9b;
 }
+
 .controls {
     display: flex;
     justify-content: center;
     align-items: center;
 }
---------------------------------------------------------
+
 .logo-box h1 {
     font-size: 1.45rem;
     margin-top: 20px;
@@ -81,7 +87,7 @@ body {
 
 .word-display {
     display: flex;
-    
+
     list-style: none;
     align-items: center;
     justify-content: center;
@@ -110,6 +116,17 @@ body {
 }
 
 .game-box .guesses-text b {
+    color: #ff0000;
+}
+
+.game-box .score-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding-top: 15px;
+}
+
+.game-box .score-text b {
     color: #ff0000;
 }
 
@@ -201,8 +218,48 @@ body {
     padding: 12px 23px;
 }
 
---------------------------------------------------------------------------
-.full-width {
+.instructions {
+    display: none;
+    /* Hidden by default *//* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 99;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    
+}
+
+.instructions-wrapper {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+-------------------------------------------------------------------------- .full-width {
     width: 100%;
 }
 
@@ -286,21 +343,3 @@ li {
         max-width: 200px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

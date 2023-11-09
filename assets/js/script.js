@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const startButton = document.getElementById('start-btn');
     const startScreen = document.getElementById('start-screen');
+    const howButton = document.getElementById('how-btn');
+    const closeButton = document.getElementById('close-btn');
     const playScreen = document.getElementById('play-screen');
     const progressBar = document.getElementById('progress-bar');
     const keyboardDiv = document.querySelector('.keyboard');
@@ -9,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const guessesText = document.querySelector(".guesses-text b");
     const gameModal = document.querySelector(".game-modal");
     const playAgainBtn = document.querySelector(".play-again");
+    const scoreText = document.querySelector(".score-text b");
+    
 
     let currentWord, correctLetters, wrongGuessCount;
     const maxGuesses = 4
@@ -22,6 +26,18 @@ document.addEventListener("DOMContentLoaded", function () {
         playScreen.style.display = "block";
         progressBar.style.display = "block";
     });
+
+//How To Play
+    howButton.addEventListener('click',showInstructions); // listen for open click of how to play modal
+    closeButton.addEventListener('click',closeInstructions); //listen for close button
+
+    function showInstructions() {
+        instructions.style.display = "block";
+    }
+
+    function closeInstructions() {
+        instructions.style.display = "none";
+    }
 
 
 //Timer Progress Bar//
@@ -62,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
             gameModal.querySelector("h4").innerText = `${isVictory ? 'Well Done!' : 'Unlucky!'}`;
             gameModal.querySelector("p").innerHTML = `${modalText} <b>${currentWord}</b>`;
             gameModal.classList.add("show");
-        }, 300);
+        }, 122);
     };
     const initGame = (button, clickedLetter) => {
         // check if clickedLetter exist on the currentWord    
