@@ -223,13 +223,14 @@ body {
     position: fixed;
     z-index: 99;
     padding-top: 100px;
-    left: 0;
+  
     top: 0;
     width: 45vw;
     height: 45vh;
-  
     align-items: center;
     justify-content: center;
+  
+        transition: opacity 0.4s ease;
 }
 
 .instructions-wrapper {
