@@ -138,7 +138,7 @@ body {
     justify-content: center;
 }
 
-:where(.game-modal, .keyboard) button {
+:where(.game-modal, .keyboard, .instructions) button {
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
@@ -161,7 +161,7 @@ body {
     pointer-events: none;
 }
 
-:where(.game-modal, .keyboard) button:hover {
+:where(.game-modal, .keyboard, .instructions) button:hover {
     background-color: #8286c9;
 }
 
@@ -220,28 +220,33 @@ body {
 
 .instructions {
     display: none;
-    /* Hidden by default *//* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 99;
-    /* Sit on top */
     padding-top: 100px;
-    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    
+    width: 45vw;
+    height: 45vh;
+  
+    align-items: center;
+    justify-content: center;
 }
 
 .instructions-wrapper {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+    background: #fff;
+        max-width: 420px;
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+        padding: 30px;
+    }
+.instructions-wrapper p {
+    font-size: 14px;
+    text-align:left;
+}
+
+.instructions-wrapper img {
+    max-width: 130px;
 }
 
 /* The Close Button */
