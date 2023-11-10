@@ -119,14 +119,14 @@ body {
     color: #ff0000;
 }
 
-.game-box .score-text {
+.game-box .score {
     text-align: center;
     font-weight: 600;
     font-size: 1.1rem;
     padding-top: 15px;
 }
 
-.game-box .score-text b {
+.game-box .score b {
     color: #ff0000;
 }
 

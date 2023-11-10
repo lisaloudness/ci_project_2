@@ -11,16 +11,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const guessesText = document.querySelector(".guesses-text b");
     const gameModal = document.querySelector(".game-modal");
     const playAgainBtn = document.querySelector(".play-again");
-    const scoreText = document.querySelector(".score-text b");
+    const scoreText = document.querySelector(".score b");
     
 
-    let currentWord, correctLetters, wrongGuessCount;
+    let currentWord, correctLetters, wrongGuessCount, score;
+    
     const maxGuesses = 4
 
     function startGame() {
         startButton.innerHTML = "Start";
     }
-
+//Initiate the Game Screen when Start Button is clicked
     startButton.addEventListener('click', () => {
         startScreen.style.display = "none";
         playScreen.style.display = "block";
@@ -30,11 +31,11 @@ document.addEventListener("DOMContentLoaded", function () {
 //How To Play
     howButton.addEventListener('click',showInstructions); // listen for open click of how to play modal
     closeButton.addEventListener('click',closeInstructions); //listen for close button
-
+    //Show modal when How To Play button is clicked
     function showInstructions() {
         instructions.style.display = "block";
     }
-
+    //Close Modal when close button is clicked
     function closeInstructions() {
         instructions.style.display = "none";
     }
@@ -99,7 +100,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // gameOver function if these conditions meets
         if (wrongGuessCount === maxGuesses) return gameOver(false);
-        if (correctLetters.length === currentWord.length) return gameOver(true);
+        if (correctLetters.length === currentWord.length) {
+            score = (score || 0)+1;
+            scoreText.innerText = score;
+            return gameOver(true);
+        }
     };
 
 
@@ -111,7 +116,8 @@ document.addEventListener("DOMContentLoaded", function () {
         keyboardDiv.appendChild(button);
         button.addEventListener("click", e => initGame(e.target, String.fromCharCode(i)));
     }
+
     getRandomWord();
-    playAgainBtn.addEventListener("click", getRandomWord);
+    playAgainBtn.addEventListener("click", getRandomWord);//Generate random word when Next button clicked on Modal
 
 });
