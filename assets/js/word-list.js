@@ -87,11 +87,7 @@ const wordList = [
         word: "motorola",
         hint: "/assets/images/logos/motorola.png"
     },
-    {
-
-        word: "micorsoft",
-        hint: "/assets/images/logos/micorsoft.png"
-    },
+    
     {
      
         word: "kfc",
@@ -106,11 +102,6 @@ const wordList = [
 
         word: "firefox",
   	    hint: "/assets/images/logos/firefox.jpg"
-    },
-    {
-
-        word: "ferrari",
-        hint: "/assets/images/logos/ferrari.jpg"
     },
     {
 

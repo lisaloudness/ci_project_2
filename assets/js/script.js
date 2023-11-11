@@ -49,9 +49,18 @@ document.addEventListener("DOMContentLoaded", function () {
             setTimeout(function () {
                 progress(timeleft - 1, timetotal, $element);
             }, 1000);
+        } else {
+            onTimeUp();
         }
     };
-    progress(122, 122, $('#progressBar'));
+    progress(122, 122, $('#progressBar'), onTimeUp);
+
+    function onTimeUp() {
+        gameModal.querySelector("img").src = "/assets/images/hourglass.png";
+        gameModal.querySelector("h4").innerText = "Time's Up";
+        gameModal.querySelector("p").innerHTML = "You ran out of time";
+        gameModal.classList.add("show");
+    }
 
     const resetGame = () => {
         correctLetters = [];
