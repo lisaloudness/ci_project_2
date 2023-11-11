@@ -20,7 +20,8 @@ body {
 
 .love-logo {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     color: #fff;
     font-weight: 900;
     font-size: 45px;

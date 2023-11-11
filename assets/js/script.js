@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let currentWord, correctLetters, wrongGuessCount, score;
     
-    const maxGuesses = 4
+    const maxGuesses = 4;
 
     function startGame() {
         startButton.innerHTML = "Start";
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function showInstructions() {
         instructions.style.display = "block";
     }
-    //Close Modal when close button is clicked
+    //Close How To Modal when close button is clicked
     function closeInstructions() {
         instructions.style.display = "none";
     }
@@ -52,15 +52,25 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             onTimeUp();
         }
-    };
-    progress(122, 122, $('#progressBar'), onTimeUp);
+    }
+    progress(122, 122, $('#progressBar'));
 
     function onTimeUp() {
+        playAgainBtn.style.display = "none";
         gameModal.querySelector("img").src = "/assets/images/hourglass.png";
         gameModal.querySelector("h4").innerText = "Time's Up";
-        gameModal.querySelector("p").innerHTML = "You ran out of time";
+        gameModal.querySelector("p").innerHTML = "You've ran out of time";
         gameModal.classList.add("show");
+        //Hide playscreen and show start screen after a delay
+        setTimeout(function () {
+            playScreen.style.display = "none";
+            startScreen.style.display = "block";
+            gameModal.style.display = "none";
+            progressBar.style.display = "none";
+            resetGame();
+        }, 3000);   
     }
+
 
     const resetGame = () => {
         correctLetters = [];
