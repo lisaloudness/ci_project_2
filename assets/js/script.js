@@ -20,12 +20,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function startGame() {
         startButton.innerHTML = "Start";
+        
+        
     }
     //Initiate the Game Screen when Start Button is clicked
     startButton.addEventListener('click', () => {
         startScreen.style.display = "none";
-        playScreen.style.display = "block";
+        playScreen.style.display ="block";
         progressBar.style.display = "block";
+
+        // Reset overall score to 0
+        score = 0;
+        scoreText.innerText = score;
+        //Reset progress bar
+        progress(122, 122, $('#progressBar'));
+        
     });
 
     //How To Play
@@ -43,8 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //Timer Progress Bar//
     function progress(timeleft, timetotal, $element) {
-        var progressBarWidth = timeleft * $element.width() / timetotal;
-        $element.find('div').animate({ width: progressBarWidth }, 500).html(Math.floor(timeleft / 60) + ":" + timeleft % 60);
+        var progressBarWidth = timeleft * $($element).width() / timetotal;
+        $element.find('div').animate({ width: progressBarWidth }, 200).html(Math.floor(timeleft / 60) + ":" + timeleft % 60);
         if (timeleft > 0) {
             setTimeout(function () {
                 progress(timeleft - 1, timetotal, $element);
@@ -53,13 +62,13 @@ document.addEventListener("DOMContentLoaded", function () {
             onTimeUp();
         }
     }
-    progress(122, 122, $('#progressBar'));
+    ;
 
     function onTimeUp() {
         playAgainBtn.style.display = "none";
         gameModal.querySelector("img").src = "assets/images/hourglass.png";
         gameModal.querySelector("h4").innerText = "Time's Up";
-
+        gameModal.querySelector("p").innerText = "Check Your High Score"
         gameModal.classList.add("show");
         //Hide playscreen and show start screen after a delay
         setTimeout(function () {
@@ -75,6 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const resetGame = () => {
         correctLetters = [];
         wrongGuessCount = 0;
+       
         guessesText.innerText = `${wrongGuessCount} / ${maxGuesses}`;
         wordDisplay.innerHTML = currentWord.split("").map(() => `<li class="letter"></li>`).join("");
         keyboardDiv.querySelectorAll("button").forEach(btn => btn.disabled = false);
@@ -91,6 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
         wordDisplay.innerHTML = word.split("").map(() => `<li class="letter"></li>`).join("");
     };
 
+    //Determine if victory or lost modal appear
     const gameOver = (isVictory) => {
         setTimeout(() => {
             const modalText = isVictory ? `You found the word:` : `The correct word was:`;
