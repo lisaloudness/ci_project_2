@@ -12,25 +12,25 @@ document.addEventListener("DOMContentLoaded", function () {
     const gameModal = document.querySelector(".game-modal");
     const playAgainBtn = document.querySelector(".play-again");
     const scoreText = document.querySelector(".score b");
-    
+
 
     let currentWord, correctLetters, wrongGuessCount, score;
-    
+
     const maxGuesses = 4;
 
     function startGame() {
         startButton.innerHTML = "Start";
     }
-//Initiate the Game Screen when Start Button is clicked
+    //Initiate the Game Screen when Start Button is clicked
     startButton.addEventListener('click', () => {
         startScreen.style.display = "none";
         playScreen.style.display = "block";
         progressBar.style.display = "block";
     });
 
-//How To Play
-    howButton.addEventListener('click',showInstructions); // listen for open click of how to play modal
-    closeButton.addEventListener('click',closeInstructions); //listen for close button
+    //How To Play
+    howButton.addEventListener('click', showInstructions); // listen for open click of how to play modal
+    closeButton.addEventListener('click', closeInstructions); //listen for close button
     //Show modal when How To Play button is clicked
     function showInstructions() {
         instructions.style.display = "block";
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-//Timer Progress Bar//
+    //Timer Progress Bar//
     function progress(timeleft, timetotal, $element) {
         var progressBarWidth = timeleft * $element.width() / timetotal;
         $element.find('div').animate({ width: progressBarWidth }, 500).html(Math.floor(timeleft / 60) + ":" + timeleft % 60);
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
         playAgainBtn.style.display = "none";
         gameModal.querySelector("img").src = "/assets/images/hourglass.png";
         gameModal.querySelector("h4").innerText = "Time's Up";
-        
+
         gameModal.classList.add("show");
         //Hide playscreen and show start screen after a delay
         setTimeout(function () {
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
             gameModal.style.display = "none";
             progressBar.style.display = "none";
             resetGame();
-        }, 3000);   
+        }, 3000);
     }
 
 
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // gameOver function if these conditions meets
         if (wrongGuessCount === maxGuesses) return gameOver(false);
         if (correctLetters.length === currentWord.length) {
-            score = (score || 0)+1;
+            score = (score || 0) + 1;
             scoreText.innerText = score;
             return gameOver(true);
         }

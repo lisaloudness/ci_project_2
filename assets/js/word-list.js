@@ -1,66 +1,66 @@
 const wordList = [
-    {  
+    {
         word: "barclays",
-        hint: "/assets/images/logos/barclays.png"
+        hint: "assets/images/logos/barclays.png"
     },
     {
         word: "x",
-        hint: "/assets/images/logos/x.png"
+        hint: "assets/images/logos/x.png"
     },
     {
 
         word: "wwf",
-        hint: "/assets/images/logos/wwf.png"
+        hint: "assets/images/logos/wwf.png"
     },
     {
 
         word: "wikipedia",
-        hint: "/assets/images/logos/wikipedia.png"
+        hint: "assets/images/logos/wikipedia.png"
     },
     {
 
         word: "walls",
-        hint: "/assets/images/logos/walls.jpg"
+        hint: "assets/images/logos/walls.jpg"
     },
     {
 
         word: "volkswagon",
-        hint: "/assets/images/logos/volkswagon.png"
+        hint: "assets/images/logos/volkswagon.png"
     },
     {
 
         word: "unilever",
-        hint: "/assets/images/logos/unilever.jpg"
+        hint: "assets/images/logos/unilever.jpg"
     },
     {
 
         word: "tui",
-        hint: "/assets/images/logos/tui.png"
+        hint: "assets/images/logos/tui.png"
     },
     {
 
         word: "starbucks",
-        hint: "/assets/images/logos/starbucks.png"
+        hint: "assets/images/logos/starbucks.png"
     },
     {
 
         word: "snapchat",
-        hint: "/assets/images/logos/snapchat.png"
+        hint: "assets/images/logos/snapchat.png"
     },
     {
 
         word: "shell",
-        hint: "/assets/images/logos/shell.png"
+        hint: "assets/images/logos/shell.png"
     },
     {
 
         word: "rbs",
-        hint: "/assets/images/logos/royal_bank_of_scotland.png"
+        hint: "assets/images/logos/royal_bank_of_scotland.png"
     },
     {
 
         word: "roblox",
-        hint: "/assets/images/logos/roblox.jpg"
+        hint: "assets/images/logos/roblox.jpg"
     },
     {
 
@@ -70,58 +70,58 @@ const wordList = [
     {
 
         word: "pringles",
-	    hint: "assets/images/logos/pringles.png"
+        hint: "assets/images/logos/pringles.png"
     },
     {
 
         word: "pepsi",
-        hint: "/assets/images/logos/pepsi.webp"
+        hint: "assets/images/logos/pepsi.webp"
     },
     {
 
         word: "nbc",
-        hint: "/assets/images/logos/NBC.webp"
+        hint: "assets/images/logos/NBC.webp"
     },
     {
 
         word: "motorola",
-        hint: "/assets/images/logos/motorola.png"
+        hint: "assets/images/logos/motorola.png"
     },
-    
+
     {
-     
+
         word: "kfc",
-        hint: "/assets/images/logos/kfc.webp"
+        hint: "assets/images/logos/kfc.webp"
     },
     {
-        
+
         word: "greggs",
-        hint: "/assets/images/logos/greggs.png"
+        hint: "assets/images/logos/greggs.png"
     },
     {
 
         word: "firefox",
-  	    hint: "/assets/images/logos/firefox.jpg"
+        hint: "assets/images/logos/firefox.jpg"
     },
     {
 
         word: "dominos",
-        hint: "/assets/images/logos/dominos.png"
+        hint: "assets/images/logos/dominos.png"
     },
     {
 
         word: "crocs",
-        hint: "/assets/images/logos/crocs.png"
+        hint: "assets/images/logos/crocs.png"
     },
     {
 
         word: "bp",
-        hint: "/assets/images/logos/BP.webp"
+        hint: "assets/images/logos/BP.webp"
     },
     {
 
         word: "beats",
-        hint: "/assets/images/logos/beats.png"
+        hint: "assets/images/logos/beats.png"
     },
     {
 
@@ -131,54 +131,54 @@ const wordList = [
     {
 
         word: "barclays",
-        hint: "/assets/images/logos/barclays.png"
+        hint: "assets/images/logos/barclays.png"
     },
     {
         word: "adidas",
-        hint: "/assets/images/logos/adidas.jpg"
+        hint: "assets/images/logos/adidas.jpg"
     },
     {
         word: "android",
-        hint: "/assets/images/logos/android.png"
+        hint: "assets/images/logos/android.png"
     },
     {
         word: "apple",
-        hint: "/assets/images/logos/apple.jpg"
+        hint: "assets/images/logos/apple.jpg"
     },
     {
         word: "bentley",
-            hint: "/assets/images/logos/bentley.jpg"
+        hint: "assets/images/logos/bentley.jpg"
     },
     {
         word: "goodyear",
-            hint: "/assets/images/logos/goodyear.jpg"
+        hint: "assets/images/logos/goodyear.jpg"
     },
     {
         word: "mcdonalds",
-            hint: "/assets/images/logos/mcdonalds.webp"
+        hint: "assets/images/logos/mcdonalds.webp"
     },
     {
         word: "pepsi",
-            hint: "/assets/images/logos/pepsi.jpg"
+        hint: "assets/images/logos/pepsi.jpg"
     },
     {
         word: "paypal",
-            hint: "/assets/images/logos/paypal.jpg"
+        hint: "assets/images/logos/paypal.jpg"
     },
     {
         word: "playboy",
-            hint: "/assets/images/logos/playboy.jpg"
+        hint: "assets/images/logos/playboy.jpg"
     },
     {
         word: "toyota",
-            hint: "/assets/images/logos/toyota.jpg"
+        hint: "assets/images/logos/toyota.jpg"
     },
     {
         word: "venmo",
-            hint: "/assets/images/logos/venmo.jpg"
+        hint: "assets/images/logos/venmo.jpg"
     },
     {
         word: "xerox",
-            hint: "/assets/images/logos/xerox.jpg"
+        hint: "assets/images/logos/xerox.jpg"
     }
 ];
