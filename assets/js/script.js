@@ -65,10 +65,11 @@ document.addEventListener("DOMContentLoaded", function () {
     ;
 
     function onTimeUp() {
+        const timeText = "You Scored:";
         playAgainBtn.style.display = "none";
         gameModal.querySelector("img").src = "assets/images/hourglass.png";
         gameModal.querySelector("h4").innerText = "Time's Up";
-        gameModal.querySelector("p").innerText = "Check Your High Score"
+        gameModal.querySelector("p").innerText = `${timeText}${score}`;
         gameModal.classList.add("show");
         //Hide playscreen and show start screen after a delay
         setTimeout(function () {
