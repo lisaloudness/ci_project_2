@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function onTimeUp() {
         playAgainBtn.style.display = "none";
-        gameModal.querySelector("img").src = "/assets/images/hourglass.png";
+        gameModal.querySelector("img").src = "assets/images/hourglass.png";
         gameModal.querySelector("h4").innerText = "Time's Up";
 
         gameModal.classList.add("show");
