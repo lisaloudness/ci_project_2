@@ -44,7 +44,7 @@ body {
 .logo-box h1 {
     text-align: center
 }
-
+/*Dynamic keyboard buttons*/
 .btn {
     display: grid;
     grid-template-columns: repeat(1, auto);
@@ -52,8 +52,8 @@ body {
     margin-left: 50px;
 }
 
-.control-btn,
-#start-btn {
+/*Control Buttons*/
+.control-btn {
     background-color: #5e63ba;
     border: 1px solid #353a9b;
     border-radius: 5px;
@@ -266,7 +266,7 @@ body {
     cursor: pointer;
 }
 
--------------------------------------------------------------------------- .full-width {
+.full-width {
     width: 100%;
 }
 
@@ -326,11 +326,16 @@ li {
     text-align: right;
     padding: 0 10px;
     line-height: 22px;
-    /* same as #progressBar height if we want text middle aligned */
     width: 0;
     background: linear-gradient(to right, #d05656, #050ebf);
     box-sizing: border-box;
-}
+};
+
+/*Leader Board Styling*/
+.finalscore {
+    position: flex;
+    text-align: center;
+};
 
 
 
