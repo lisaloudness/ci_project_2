@@ -1,357 +1,345 @@
 /* Import Googlt Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Open+Sans:wght@400;500;600;700&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Open+Sans:wght@400;500;600;700&family=Roboto&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Nunito";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito";
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 10px;
-    height: 100vh;
-    background: #5e63ba;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  height: 100vh;
+  background: #5e63ba;
 }
 
 .love-logo {
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    color: #fff;
-    font-weight: 900;
-    font-size: 45px;
-    letter-spacing: 00.20em;
-
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 45px;
+  letter-spacing: 00.2em;
 }
 
 .container {
-    width: 800px;
-    max-width: 100%;
-    background: #fff;
+  width: 800px;
+  max-width: 100%;
+  background: #fff;
 
-    display: flex;
-    gap: 70px;
-    align-items: center;
-    padding: 50px 40px;
-    border-radius: 10px;
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  padding: 50px 40px;
+  border-radius: 10px;
 }
 
 .logo-box h1 {
-    text-align: center
+  text-align: center;
 }
 /*Dynamic keyboard buttons*/
 .btn {
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-    gap: 50px;
-    margin-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 50px;
+  margin-left: 50px;
 }
 
 /*Control Buttons*/
 .control-btn {
-    background-color: #5e63ba;
-    border: 1px solid #353a9b;
-    border-radius: 5px;
-    padding: 10px 20px;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 0.20em;
+  background-color: #5e63ba;
+  border: 1px solid #353a9b;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
 }
 
 .control-btn:hover {
-    background-color: #353a9b;
+  background-color: #353a9b;
 }
 
 .controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-box h1 {
-    font-size: 1.45rem;
-    margin-top: 20px;
-    text-align: center;
-    text-transform: uppercase;
+  font-size: 1.45rem;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .logo-box img {
-    max-width: 270px;
-
+  max-width: 270px;
 }
 
 .word-display {
-    display: flex;
+  display: flex;
 
-    list-style: none;
-    align-items: center;
-    justify-content: center;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
 }
 
 .word-display .letter {
-    width: 28px;
-    font-size: 2rem;
-    font-weight: 600;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    border-bottom: 3px solid #000
+  width: 28px;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #000;
 }
 
 .word-display .letter.guessed {
-    border-color: transparent;
-    margin: -40px 0 35px;
+  border-color: transparent;
+  margin: -40px 0 35px;
 }
 
 .game-box .guesses-text {
-    text-align: center;
-    font-weight: 600;
-    font-size: 1.1rem;
-    margin-bottom: 15px
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
 }
 
 .game-box .guesses-text b {
-    color: #ff0000;
+  color: #ff0000;
 }
 
 .game-box .score {
-    text-align: center;
-    font-weight: 600;
-    font-size: 1.1rem;
-    padding-top: 15px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-top: 15px;
 }
 
 .game-box .score b {
-    color: #ff0000;
+  color: #ff0000;
 }
 
 .game-box .keyboard {
-    display: flex;
-    gap: 5px;
-    margin-top: 40px;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  gap: 5px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 :where(.game-modal, .keyboard, .instructions) button {
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    background: #5e63ba;
-    border-radius: 4px;
-    text-transform: uppercase;
-
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: #5e63ba;
+  border-radius: 4px;
+  text-transform: uppercase;
 }
 
 .keyboard button {
-    padding: 7px;
-    width: calc(100% / 9 - 5px);
+  padding: 7px;
+  width: calc(100% / 9 - 5px);
 }
 
 .keyboard button[disabled] {
-    opacity: 0.6;
-    pointer-events: none;
+  opacity: 0.6;
+  pointer-events: none;
 }
 
 :where(.game-modal, .keyboard, .instructions) button:hover {
-    background-color: #8286c9;
+  background-color: #8286c9;
 }
 
 .game-modal {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    pointer-events: none;
-    display: flex;
-    z-index: 999;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.6);
-    transition: opacity 0.4s ease;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  transition: opacity 0.4s ease;
 }
 
 .game-modal.show {
-    opacity: 1;
-    pointer-events: auto;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .game-modal .content {
-    background: #fff;
-    max-width: 420px;
-    width: 100%;
-    text-align: center;
-    border-radius: 10px;
-    padding: 30px;
+  background: #fff;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
 }
 
 .game-modal img {
-    max-width: 130px;
+  max-width: 130px;
 }
 
 .game-modal h4 {
-    font-size: 1.53rem;
+  font-size: 1.53rem;
 }
 
 .game-modal p {
-    font-size: 1.15rem;
-    margin: 15px 0 30px;
-    font-weight: 500;
+  font-size: 1.15rem;
+  margin: 15px 0 30px;
+  font-weight: 500;
 }
 
 .game-modal p b {
-    color: #5e63ba;
-    font-weight: 600;
+  color: #5e63ba;
+  font-weight: 600;
 }
 
 .game-modal button {
-    padding: 12px 23px;
+  padding: 12px 23px;
 }
 
 .instructions {
-    display: none;
-    position: fixed;
-    z-index: 99;
-    padding-top: 100px;
-  
-    top: 0;
-    width: 45vw;
-    height: 45vh;
-    align-items: center;
-    justify-content: center;
-  
-        transition: opacity 0.4s ease;
+  display: none;
+  position: fixed;
+  z-index: 99;
+  padding-top: 100px;
+
+  top: 0;
+  width: 45vw;
+  height: 45vh;
+  align-items: center;
+  justify-content: center;
+
+  transition: opacity 0.4s ease;
 }
 
 .instructions-wrapper {
-    background: #fff;
-        max-width: 420px;
-        width: 100%;
-        text-align: center;
-        border-radius: 10px;
-        padding: 30px;
-    }
+  background: #fff;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
+}
 .instructions-wrapper p {
-    font-size: 14px;
-    text-align:left;
+  font-size: 14px;
+  text-align: left;
 }
 
 .instructions-wrapper img {
-    max-width: 130px;
+  max-width: 130px;
 }
 
 /* The Close Button */
 .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .full-width {
-    width: 100%;
+  width: 100%;
 }
 
-
-
 .progress-text {
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 p {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
 }
 
 ul {
-    list-style-type: none;
-    margin-bottom: 0;
-    margin-left: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
 li {
-    display: inline-block;
-    margin-right: 1rem;
-    width: 1em;
+  display: inline-block;
+  margin-right: 1rem;
+  width: 1em;
 }
 
 .numbers {
-    display: block;
-    font-family: sans-serif;
-    font-size: 60px;
-    line-height: 1.5;
-    margin: 0 auto;
+  display: block;
+  font-family: sans-serif;
+  font-size: 60px;
+  line-height: 1.5;
+  margin: 0 auto;
 }
 
 .name {
-    font-family: sans-serif;
-    font-size: 20px;
-    line-height: 1.5;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    top: -25px;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: -25px;
 }
 
 #progressBar {
-    width: 90%;
-    margin: 10px auto;
-    height: 22px;
-    background-color: #efd0d0;
+  width: 90%;
+  margin: 10px auto;
+  height: 22px;
+  background-color: #efd0d0;
 }
 
 #progressBar div {
-    height: 100%;
-    text-align: right;
-    padding: 0 10px;
-    line-height: 22px;
-    width: 0;
-    background: linear-gradient(to right, #d05656, #050ebf);
-    box-sizing: border-box;
-};
+  height: 100%;
+  text-align: right;
+  padding: 0 10px;
+  line-height: 22px;
+  width: 0;
+  background: linear-gradient(to right, #d05656, #050ebf);
+  box-sizing: border-box;
+}
 
 /*Leader Board Styling*/
 .finalscore {
-    position: flex;
-    text-align: center;
-};
-
-
-
-
-
-
-
+  position: flex;
+  text-align: center;
+}
 
 @media (max-width: 782px) {
-    .container {
-        flex-direction: column;
-        padding: 30px 15px;
-        align-items: center;
-    }
+  .container {
+    flex-direction: column;
+    padding: 30px 15px;
+    align-items: center;
+  }
 
-    .logo-box img {
-        max-width: 200px;
-    }
+  .logo-box img {
+    max-width: 200px;
+  }
 }
