@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
       startScreen.style.display = "block";
       gameModal.style.display = "none";
       progressBar.style.display = "none";
+        localStorage.setItem('score', score); //add score to local storage
       resetGame();
         window.location.reload();
     }, 3000);
@@ -143,8 +144,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // gameOver function if these conditions meets
     if (wrongGuessCount === maxGuesses) return gameOver(false);
     if (correctLetters.length === currentWord.length) {
-      score = (score || 0) + 1;
+      score = (score || 0) + 1; //increment score +1 if win game
       scoreText.innerText = score;
+      
       return gameOver(true);
     }
   };
