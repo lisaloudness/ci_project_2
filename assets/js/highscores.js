@@ -1,3 +1,4 @@
+//
 document.addEventListener("DOMContentLoaded", function () {
    const score = localStorage.getItem('score');
     const highScores = JSON.parse(localStorage.getItem('highScores')) || [];

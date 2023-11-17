@@ -71,7 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
       startScreen.style.display = "block";
       gameModal.style.display = "none";
       progressBar.style.display = "none";
-        localStorage.setItem('score', score); //add score to local storage
+//add score to local storage
+        localStorage.setItem('score', score); 
         localStorage.setItem('highScores', highScores);
         highScores.push(score);
         highScores.sort((a, b) => b - a);

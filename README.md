@@ -1,6 +1,6 @@
 # Love Logo
 
-You can view the deployed website [https://lisaloudness.github.io/ci_project_2/]()
+You can view the deployed website [https://lisaloudness.github.io/ci_project_2]()
 
 <p align ="center">
 <img src="assets/images/***********.png" width="800" height="100%">
