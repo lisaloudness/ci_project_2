@@ -29,10 +29,8 @@ body {
 }
 
 .container {
-  
   max-width: 100%;
   background: #fff;
-
   display: flex;
   gap: 70px;
   align-items: center;
@@ -56,11 +54,16 @@ body {
   background-color: #5e63ba;
   border: 1px solid #353a9b;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   color: white;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.2em;
+  text-decoration: none;
+}
+.control-btn a {
+    text-decoration: none;
+    color:#fff;
 }
 
 .control-btn:hover {
@@ -221,13 +224,11 @@ body {
   position: fixed;
   z-index: 99;
   padding-top: 100px;
-
   top: 0;
   width: 45vw;
   height: 45vh;
   align-items: center;
   justify-content: center;
-
   transition: opacity 0.4s ease;
 }
 
@@ -245,7 +246,7 @@ body {
 }
 
 .instructions-wrapper img {
-  max-width: 130px;
+  max-width: 110px;
 }
 
 /* The Close Button */

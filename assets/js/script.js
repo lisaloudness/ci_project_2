@@ -72,9 +72,14 @@ document.addEventListener("DOMContentLoaded", function () {
       gameModal.style.display = "none";
       progressBar.style.display = "none";
         localStorage.setItem('score', score); //add score to local storage
+        localStorage.setItem('highScores', highScores);
+        highScores.push(score);
+        highScores.sort((a, b) => b - a);
+        localStorage.setItem('highScores', JSON.stringify(highScores));
+
       resetGame();
         window.location.reload();
-    }, 3000);
+    }, 5000);
   }
 
   const resetGame = () => {

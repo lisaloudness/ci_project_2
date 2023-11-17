@@ -12,10 +12,14 @@ function displayHighScores() {
     //Display the high scores
     highScores.forEach((score, index) => {
         const listItem = document.createElement('li');
-        listItem.textContent = `${index + 1}: ${score}`;
+        listItem.textContent = `#${index + 1}: ${score}`;
         highScoresList.appendChild(listItem);
 
     });
+
+    displayHighScores();
+    console.log("score", score);
+    console.log("highScores", highScores);
 
 }
 console.log(score);
