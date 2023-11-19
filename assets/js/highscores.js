@@ -17,11 +17,11 @@ function displayHighScores() {
         highScoresList.appendChild(listItem);
 
     });
-
+}
     displayHighScores();
     console.log("score", score);
     console.log("highScores", highScores);
 
-}
+
 console.log(score);
 });
