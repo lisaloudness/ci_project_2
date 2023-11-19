@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-  max-width: 100%;
+  
   background: #fff;
   display: flex;
   gap: 70px;
@@ -42,7 +42,7 @@ body {
   text-align: center;
 }
 /*Dynamic keyboard buttons*/
-.btn {
+.button {
   display: grid;
   grid-template-columns: repeat(1, auto);
   gap: 50px;
@@ -51,6 +51,9 @@ body {
 
 /*Control Buttons*/
 .control-btn {
+    display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 50px;
   background-color: #5e63ba;
   border: 1px solid #353a9b;
   border-radius: 5px;
@@ -60,6 +63,8 @@ body {
   font-weight: 700;
   letter-spacing: 0.2em;
   text-decoration: none;
+ margin-top: 20px;
+ margin-bottom: 20px;
 }
 .control-btn a {
     text-decoration: none;
@@ -249,12 +254,17 @@ body {
   max-width: 110px;
 }
 
+.instructions-list a {
+    text-decoration: none;
+    font-weight: 700;
+}
 /* The Close Button */
 .close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
+  padding-top: 30px;
 }
 
 .close:hover,
@@ -343,4 +353,12 @@ li {
   .logo-box img {
     max-width: 200px;
   }
-}
+  .progress-text {
+    font-size: 0.5rem;
+  }
+  .logo-box h1 {
+    margin-top: 0px;
+  }
+  .love-logo {
+    display: none;
+  }
