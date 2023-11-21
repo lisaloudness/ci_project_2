@@ -24,7 +24,7 @@ body {
   padding-top: 10px;
   color: #fff;
   font-weight: 900;
-  font-size: 45px;
+  font-size: 40px;
   letter-spacing: 00.2em;
   text-decoration: none;
 }
@@ -35,8 +35,8 @@ body {
   display: flex;
   gap: 70px;
   align-items: center;
-  padding: 50px 40px;
-  border-radius: 10px;
+  padding: 30px 40px;
+border-radius: 10px;
 }
 
 .logo-box h2 {
@@ -52,9 +52,10 @@ body {
 
 /*Control Buttons*/
 .control-btn {
-    display: grid;
-        grid-template-columns: repeat(1, auto);
-        gap: 50px;
+  width: 183px;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 50px;
   background-color: #5e63ba;
   border: 1px solid #353a9b;
   border-radius: 5px;
@@ -231,7 +232,7 @@ body {
   display: none;
   position: fixed;
   z-index: 99;
-  padding-top: 100px;
+  padding-top: 15%;
   top: 0;
   width: 100%;
   height: 100%;
@@ -248,6 +249,7 @@ body {
   text-align: center;
   border-radius: 10px;
   padding: 30px;
+  margin:auto
 }
 .instructions-wrapper p {
   font-size: 14px;
@@ -285,7 +287,7 @@ body {
 .progress-text {
   color: #fff;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p {
@@ -347,7 +349,7 @@ li {
   text-align: center;
 }
 
-@media (max-width: 782px) {
+@media (max-width: 770px) {
   .container {
     flex-direction: column;
     padding: 20px 10px;
@@ -370,3 +372,6 @@ li {
   .love-logo {
     display: none;
   }
+.word-display .letter {
+    margin-bottom: 20px;
+}

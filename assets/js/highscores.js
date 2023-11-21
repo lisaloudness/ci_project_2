@@ -1,7 +1,7 @@
 //
 document.addEventListener("DOMContentLoaded", function () {
    const score = localStorage.getItem('score');
-    const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+    const highScores = JSON.parse(localStorage.getItem('highScores')) ?? [];
 
 highScores.push(score);
 highScores.sort((a, b) => b - a);
