@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const playAgainBtn = document.querySelector(".play-again");
     const scoreText = document.querySelector(".score b");
 
-    let currentWord, correctLetters, wrongGuessCount, score; instructions, $, wordList;
+    let currentWord, correctLetters, wrongGuessCount, score;
+    instructions, $, wordList;
 
     const maxGuesses = 4;
-
 
     //Initiate the Game Screen when Start Button is clicked
     startButton.addEventListener("click", () => {
@@ -45,25 +45,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //Timer Progress Bar//
     function progress(timeleft, timetotal, $element) {
-        var progressBarWidth = (timeleft * $($element).width()) / timetotal;
+        var progressBarWidth = (timeleft * $($element)
+            .width()) / timetotal;
         $element
             .find("div")
-            .animate({ width: progressBarWidth }, 200)
+            .animate({
+                width: progressBarWidth
+            }, 200)
             .html(Math.floor(timeleft / 60) + ":" + (timeleft % 60));
         if (timeleft > 0) {
             setTimeout(function () {
                 progress(timeleft - 1, timetotal, $element);
             }, 1000);
-        } else {
-            onTimeUp();
         }
-    }
+        else {
+            onTimeUp();
+        };
+    };
+
     function onTimeUp() {
         const timeText = "You Scored:";
         playAgainBtn.style.display = "none";
-        gameModal.querySelector("img").src = "assets/images/hourglass.png";
-        gameModal.querySelector("h4").innerText = "Time's Up";
-        gameModal.querySelector("p").innerText = `${timeText}${score}`;
+        gameModal.querySelector("img")
+            .src = "assets/images/hourglass.png";
+        gameModal.querySelector("h4")
+            .innerText = "Time's Up";
+        gameModal.querySelector("p")
+            .innerText = `${timeText}${score}`;
         gameModal.classList.add("show");
         localStorage.setItem('score', score); //add score to local storage
         //Hide playscreen and show start screen after a delay
@@ -94,11 +102,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // retrieve random question from word-list
     const getRandomWord = () => {
-        const { word, hint } =
+        const {
+            word
+            , hint
+        } =
             wordList[Math.floor(Math.random() * wordList.length)];
         currentWord = word;
-        console.log(word);
-        document.querySelector(".logo").src = hint;
+        document.querySelector(".logo")
+            .src = hint;
         resetGame();
         wordDisplay.innerHTML = word
             .split("")
@@ -109,16 +120,19 @@ document.addEventListener("DOMContentLoaded", function () {
     //Determine if victory or lost modal appear
     const gameOver = (isVictory) => {
         setTimeout(() => {
-            const modalText = isVictory
-                ? `You found the word:`
-                : `The correct word was:`;
-            gameModal.querySelector("img").src = `assets/images/${isVictory ? "victory" : "lost"
+            const modalText = isVictory ?
+                `You found the word:` :
+                `The correct word was:`;
+            gameModal.querySelector("img")
+                .src = `assets/images/${isVictory ? "victory" : "lost"
                 }.gif`;
-            gameModal.querySelector("h4").innerText = `${isVictory ? "Well Done!" : "Unlucky!"
+            gameModal.querySelector("h4")
+                .innerText = `${isVictory ? "Well Done!" : "Unlucky!"
                 }`;
             gameModal.querySelector(
                 "p"
-            ).innerHTML = `${modalText} <b>${currentWord}</b>`;
+            )
+                .innerHTML = `${modalText} <b>${currentWord}</b>`;
             gameModal.classList.add("show");
         }, 122);
     };
@@ -133,7 +147,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     wordDisplay.querySelectorAll("li")[index].classList.add("guessed");
                 }
             });
-        } else {
+        }
+        else {
             wrongGuessCount++;
         }
         button.disabled = true;

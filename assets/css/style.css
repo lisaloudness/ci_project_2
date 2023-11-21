@@ -29,6 +29,9 @@ body {
   text-decoration: none;
 }
 
+.love-logo :hover {
+  color: #353a9b;
+}
 .container {
   
   background: #fff;
@@ -98,7 +101,7 @@ border-radius: 10px;
 
 .word-display {
   display: flex;
-
+padding-top: 10px;
   list-style: none;
   align-items: center;
   justify-content: center;
@@ -158,12 +161,13 @@ border-radius: 10px;
   border: none;
   background: #5e63ba;
   border-radius: 4px;
-  text-transform: uppercase;
+  
 }
 
 .keyboard button {
   padding: 7px;
   width: calc(100% / 9 - 5px);
+  text-transform: uppercase;
 }
 
 .keyboard button[disabled] {
@@ -222,6 +226,7 @@ border-radius: 10px;
 .game-modal p b {
   color: #5e63ba;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .game-modal button {
@@ -232,7 +237,7 @@ border-radius: 10px;
   display: none;
   position: fixed;
   z-index: 99;
-  padding-top: 15%;
+  padding-top: 10%;
   top: 0;
   width: 100%;
   height: 100%;
@@ -248,12 +253,13 @@ border-radius: 10px;
   width: 100%;
   text-align: center;
   border-radius: 10px;
-  padding: 30px;
+  padding: 20px;
   margin:auto
 }
 .instructions-wrapper p {
   font-size: 14px;
   text-align: left;
+  padding-bottom: 10px;
 }
 
 .instructions-wrapper img {
@@ -265,12 +271,8 @@ border-radius: 10px;
     font-weight: 700;
 }
 /* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  padding-top: 30px;
+#close-btn {
+padding: 12px 23px;
 }
 
 .close:hover,
@@ -349,7 +351,7 @@ li {
   text-align: center;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 765px) {
   .container {
     flex-direction: column;
     padding: 20px 10px;
@@ -374,4 +376,5 @@ li {
   }
 .word-display .letter {
     margin-bottom: 20px;
+}
 }
