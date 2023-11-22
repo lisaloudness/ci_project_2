@@ -8,6 +8,50 @@ const wordList = [
         hint: "assets/images/logos/x.png"
     },
     {
+        word: "chanel",
+        hint: "assets/images/logos/chanel.png"
+    },
+    {
+        word: "microsoft",
+        hint: "assets/images/logos/microsoft.png"
+    },
+    {
+        word: "monster",
+        hint: "assets/images/logos/monster.png"
+    },
+    {
+        word: "nestle",
+        hint: "assets/images/logos/nestle.png"
+    },
+    {
+        word: "northface",
+        hint: "assets/images/logos/northface.png"
+    },
+    {
+        word: "playstation",
+        hint: "assets/images/logos/playstation.png"
+    },
+    {
+        word: "puma",
+        hint: "assets/images/logos/puma.png"
+    },
+    {
+        word: "skoda",
+        hint: "assets/images/logos/skoda.png"
+    },
+    {
+        word: "spotify",
+        hint: "assets/images/logos/spotify.png"
+    },
+    {
+        word: "xbox",
+        hint: "assets/images/logos/xbox.png"
+    },
+    {
+        word: "yamaha",
+        hint: "assets/images/logos/yamaha.png"
+    },
+    {
 
         word: "wwf",
         hint: "assets/images/logos/wwf.png"
