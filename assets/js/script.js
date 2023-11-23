@@ -11,10 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const gameModal = document.querySelector(".game-modal");
     const playAgainBtn = document.querySelector(".play-again");
     const scoreText = document.querySelector(".score b");
+    
+    const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
     let currentWord, correctLetters, wrongGuessCount, score;
     instructions, $, wordList;
-
+    let usedWords = [];
     const maxGuesses = 4;
 
     //Initiate the Game Screen when Start Button is clicked
@@ -43,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
         instructions.style.display = "none";
     }
 
-    //Timer Progress Bar//
+    //Timer Progress Bar- Borrowed code//
     function progress(timeleft, timetotal, $element) {
         var progressBarWidth = (timeleft * $($element)
             .width()) / timetotal;
@@ -58,11 +60,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 progress(timeleft - 1, timetotal, $element);
             }, 1000);
         }
+        //Borrowed code end//
         else {
             onTimeUp();
         };
     };
-
+    //Modal to show at end of timer
     function onTimeUp() {
         const timeText = "You Scored:";
         playAgainBtn.style.display = "none";
@@ -74,6 +77,20 @@ document.addEventListener("DOMContentLoaded", function () {
             .innerText = `${timeText}${score}`;
         gameModal.classList.add("show");
         localStorage.setItem('score', score); //add score to local storage
+        //Create array for top 5 high scores
+        const currentScore = score || 0;
+        const existingHighScores = JSON.parse(localStorage.getItem('highScores')) || [];
+
+        existingHighScores.push(currentScore);
+        existingHighScores.sort((a, b) => b - a);
+        const top5Scores = existingHighScores.slice(0, 5);
+        //save the top 5 scores to local storage
+        localStorage.setItem('highScores', JSON.stringify(top5Scores));
+    
+
+
+
+
         //Hide playscreen and show start screen after a delay
         setTimeout(function () {
             playScreen.style.display = "none";
@@ -83,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
             resetGame();
             window.location.reload();
         }, 3000);
-    }
+}
 
     const resetGame = () => {
         correctLetters = [];
@@ -102,11 +119,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // retrieve random question from word-list
     const getRandomWord = () => {
-        const {
-            word
-            , hint
-        } =
-            wordList[Math.floor(Math.random() * wordList.length)];
+        // Filter out words that have already been used
+        const availableWords = wordList.filter(({ word }) => !usedWords.includes(word));
+
+        if (availableWords.length === 0) {
+            // Reset usedWords if all words have been used
+            usedWords = [];
+        }
+
+        // Get a random word from the available words
+        const randomWordObj = availableWords[Math.floor(Math.random() * availableWords.length)];
+        const { word, hint } = randomWordObj;
+
+        // Push the used word to the usedWords array
+        usedWords.push(word);
+        
+        
+        
+        
+        
+       //Get random word from available words
+        wordList[Math.floor(Math.random() * wordList.length)];
         currentWord = word;
         document.querySelector(".logo")
             .src = hint;

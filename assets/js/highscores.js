@@ -14,7 +14,7 @@ function displayHighScores() {
     //Display the top 5 high scores
     top5Scores.forEach((score, index) => {
         const listItem = document.createElement('li');
-        listItem.textContent = `#${index + 1}: ${score}`;
+        listItem.textContent = `${index + 1}: ${score}`;
         highScoresList.appendChild(listItem);
 
     });
