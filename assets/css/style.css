@@ -354,7 +354,7 @@ li {
 
 /*High Score Board Styling*/
 .finalscore {
-  position: flex;
+  display: flex;
   text-align: center;
 }
 
@@ -428,6 +428,10 @@ li {
   }
   .logo-box h1 {
     margin-top: 0px;
+  }
+  .logo-box img {
+      display: flex;
+      align-items: center;
   }
   .love-logo {
     display: none;
