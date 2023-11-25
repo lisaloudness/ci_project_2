@@ -153,11 +153,10 @@ The picture of the logo is positioned left side of the game container.
 ## **Color scheme**
 
 Using the [COOLERS](https://coolors.co/image-picker) color palette generator, the color scheme chosen is based on the logo.
+- #5E63BA is the main color throughout the quiz with contrasting white game container.
+- #FFFFFF is the game container which is a bold contrast to the purple background.
 
 ![Colour Palette](assets/images/palette.png)
-<p align="center">
-<img src="assets/images/palette.png" width="900" height="350">
-</p>
 
 [Back to top](#love-logo)
 
