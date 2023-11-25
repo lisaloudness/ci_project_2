@@ -377,21 +377,6 @@ li {
     margin-right: 10px;
 }
 
-#highScoresList li:nth-child(1)::before {
-    background-color: gold;
-    /* Color for the 1st place */
-}
-
-#highScoresList li:nth-child(2)::before {
-    background-color: silver;
-    /* Color for the 2nd place */
-}
-
-#highScoresList li:nth-child(3)::before {
-    background-color: #cd7f32;
-    /* Color for the 3rd place */
-}
-
 @media (max-width: 500px) {
   .body {
     overflow: hidden;
@@ -406,7 +391,7 @@ li {
   .button {
     margin: 5px;
   }
-  
+
   .progress-text {
     font-size: 0.5rem;
   }
