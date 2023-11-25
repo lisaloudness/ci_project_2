@@ -1,43 +1,114 @@
-# Love Logo
+# **Love Logo**
 
-You can view the deployed website [https://lisaloudness.github.io/ci_project_2]()
+![Victoria Park website in various devices](assets/images/responsive.png "Love Logo quiz in various devices")
 
-<p align ="center">
-<img src="assets/images/***********.png" width="800" height="100%">
-</p>
+[View the live project here](https://lisaloudness.github.io/ci_project_2/index.html)
 
-# UX
+## **Table Of Content**
+
+- [**Love Logo**](#love-logo)
+  - [**Table Of Content**](#table-of-content)
+  - [**Introduction**](#introduction)
+  - [**Development**](#development)
+  - [Wireframes](#wireframes)
+      - [Start Page](#start-page)
+      - [Game page](#game-page)
+  - [**UX**](#ux)
+    - [User Demographic](#user-demographic)
+    - [User-Stories](#user-stories)
+      - [Current User Goals](#current-user-goals)
+      - [New User Goals](#new-user-goals)
+      - [Future User Goals](#future-user-goals)
+  - [**UI**](#ui)
+    - [**Layout**](#layout)
+    - [Structure](#structure)
+  - [**Color scheme**](#color-scheme)
+  - [**Testing**](#testing)
+  - [**Technologies Used**](#technologies-used)
+    - [**Main Languages Used**](#main-languages-used)
+    - [**Frameworks, Libraries \& Programs Used**](#frameworks-libraries--programs-used)
+  - [Media](#media)
+  - [**Deployment**](#deployment)
+  - [GitHub Pages](#github-pages)
+  - [To run locally](#to-run-locally)
+  - [**Bugs**](#bugs)
+  - [**Future Development**](#future-development)
+  - [**Credits**](#credits)
+  - [**Acknowledgements**](#acknowledgements)
+
+## **Introduction**
 
 Welcome to the Love Logo Quiz!
 
 Love Logo is a mindful quiz that helps focus and concentration but most of all it's fun.
-The inspiration for this quiz are my children. I wanted to develop a game that develops their cognitive intelligence and visual memory.
+The inspiration for this quiz are my children. I wanted to develop a game that develops cognitive intelligence and visual memory.
 It can be played on your own or with others.  With this game, screen time becomes a positive neurological exercise, developing critical thinking, spelling and attention to detail.
-Lovo Logo is intended for children and adults (5+years)
+Lovo Logo is intended for children and adults (5+years).
 
-Please note that this quiz was created for the Code Institute’s Milestone Project 2 as part of their Diploma in Full Stack Software Development. The requirements are to make a static front-end website, using HTML, CSS, and (optional) Bootstrap or other CSS frameworks.  
+Please note that this quiz was created for the Code Institute’s Milestone Project 2 as part of their Diploma in Full Stack Software Development. The requirements are to make an interactive front-end website using HTML, CSS, and Javascript.  
 
-## Users Stories
+[Back to top](#love-logo)
 
-As a parent:
+## **Development**
 
-- I want to make sure the content is applicable to children
-- I want my child to easily understand the purpose of the game
-- I want my child to have fun while learning
+To represent user stories for multiple end users informal discussions were held with:
 
-As a player:
+- 48 year old man
+- 5 year old girl
+- 12 year old boy
 
-- I want to have fun
-- I want to see nice and colorful game
-- I want to see nice pictures that will keep my attention
-- I want to see my time and score
-- I want to contact the developer for questions
+## Wireframes
 
-#
+#### Start Page
 
-# Scope
+![Wireframe Home Page mockup](/assets/images/home_page.webp)
 
-## Features
+#### Game page
+
+![Wireframe Facilities page mockup](/assets/images/facilities_page.webp)
+
+[Back to top](#love-logo)
+
+## **UX**
+
+### User Demographic
+
+Current users will be parents wanting to play an interactive quiz.
+
+Current users will be children wanting to play an interactive quiz.
+
+New users will be acquaintances of the current user audience.
+
+New users will want to play an interactive quiz.
+
+Future users will be people who want to play an interactive quiz.
+
+### User-Stories
+
+#### Current User Goals
+
+1. As a current user, I want to make sure the content is applicable to children
+2. As a current user, I want to easily understand the purpose of the game
+3. As a current user, I want to have fun while learning
+
+#### New User Goals
+
+1. As a new user, I want to have fun.
+2. As a new user, I want the quiz to provide thought-provoking challenges in a short space of time.
+3. As a new user, I want attractive and relevant visuals that work with the content so the content is intuitive.
+
+#### Future User Goals
+
+1. As a future user, I want to see attractive and relevant visuals
+2. As a future user, I want to be informed and educated so I get the information I'm browsing for.
+3. As a future user, I want to play a game with my child.
+
+[Back to top](#love-logo)
+
+
+## **UI**
+
+### **Layout**
 
 - A simple and colorful page structure so that the user can easily find the game
 - "Play" button - takes the user to the play section
@@ -49,58 +120,18 @@ As a player:
 - Contact form - user can contact the game provider if he has questions or suggestions for the game
 - Footer - contains mail address and social links
 
-## Future features
-
-- Add more levels to increase difficulty
-- Taylor the content to specific age groups (5 - 10 ; 8 - 15 ; 10+)
-- Taylor the logos into specific categories (ie. cars, confectionary, toys, etc)
-- Add music during game play
-- When form is submitted, send a confirmation email
-
-#
-
-# Structure
+### Structure
 
 - **Title**  
-  - located at the top of the page
+  - located at the top of the page and will also navigate to home page on click.
 
 - **Container**
   - White container holds quiz content positioned page center
 
 - **Play Section**  
-  - within the container the Play Screen consists of 2 sections. The Logo image question is displayed on the left and the quiz elements 	are displayed on the right. The dynamic keyboard is live for the user to select the letters that they believe is the name of the brand.
+  - within the container, the Play Screen consists of 2 sections. The Logo image question is displayed on the left and the quiz elements are displayed on the right. The dynamic keyboard is live for the user to select the letters that they believe is the name of the brand.
 
-- **Contact Form**  
-  - allows the user to contact the game provider if he has questions or suggestions for the game
-
-- **Footer**
-  - contains mail address and social link
-
-# Wireframes
-
-## Desktop View
-
-<p align="center">
-<img src="assets/images/wireframes/desktop-view.png" width="600" height="1000">
-</p>
-
-# Tablet view
-
-<p align="center">
-<img src="assets/images/wireframes/tablet-view.png" width="500" height="1100">
-</p>
-
-# Mobile View
-
-<p align="center">
-<img src="assets/images/wireframes/mobile-view.png" width="300" height="1200">
-</p>
-
-# Surface
-
-# Design
-
-The design of this site is bright and bold with 2 tone colors. The aesthetic design of the game is kept simple to enable an intuitive UX experience and the main goal of this game is to be fun. The site is intended for children and adults and the content of the logos can be easily adapted and updated to target specific user groups.
+- The design of this site is bright and bold with 2 tone colors. The aesthetic design of the game is kept simple to enable an intuitive UX experience and the main goal of this game is to be fun. The site is intended for children and adults and the content of the logos can be easily adapted and updated to target specific user groups.
 
 The quiz consists of 2 main pages:-
 The first page is the landing page of the game and consists of a title and content container. The container contains the game brand logo and  3 control buttons:-
@@ -119,187 +150,98 @@ Incorrect Guesses counter and Overall Score counter is positioned in container r
 
 The picture of the logo is positioned left side of the game container.
 
-## Chosen Color
+## **Color scheme**
 
-Color palette from Coolors
+Using the [COOLERS](https://coolors.co/image-picker) color palette generator, the color scheme chosen is based on the logo.
+
+![Colour Palette](assets/images/palette.png)
 <p align="center">
 <img src="assets/images/readme/colors-palette.png" width="900" height="250">
 </p>
 
-- **#9df57ab5** - body background color. It fits nicely with the background image. The site looks colorful and fun.
-- **#3c444c** - the main color. I choose this color because it matches nicely with the rest of the page. The color is neither too dark nor too bright.
-- **#fee73bde** - color for play, how to play and reset button. The color is cheerful. That’s why I liked it because it elevates the look of the page.
-- **#ff4f98**- color for Play btn. Fits nicely with yellow background.
-- **#2daaf3** - color for How to play text on the button, Reset text and background of Submit.  The color goes well with yellow and pink and gives the page a cheerful look.
-- **deeppink** - color is used for brief introduction before the board game and title of the contact form.
-- **#a9bedb** - footer background color. I liked the color because it is neither too dark nor too bright. It fits nicely with the whole page and with a submit button.
+[Back to top](#love-logo)
 
-## Font
+## **Testing**
 
-- Arial, sans-serif - main font
-- Indie Flower - for headings and buttons
+All testing performed for Milestone Project 2 can be found here:
+[View Test Document here](/TESTING.md)
+
+## **Technologies Used**
+
+### **Main Languages Used**
+
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript "Link to JavaScipt Wiki")
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML5 Wiki")
+
+- [CSS3](https://en.wikipedia.org/wiki/Code_Composer_Studio "Link to CSS Wiki")
+
+### **Frameworks, Libraries & Programs Used**
+
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+  - Google fonts was used to import the fonts "Nunito"and "Roboto"into the style.css file. These fonts were used throughout the project.
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+  - Font Awesome was used to import icons (e.g. social media icons) for UX purposes.
+- [Code Anywhere](https://www.codeanywhere.com/ "Link to Code Anywhere homepage")
+  - Code Anywhere was used for writing code, committing, and then pushing to GitHub.
+- [GitHub](https://github.com/ "Link to GitHub")
+  - GitHub was used to store the project after pushing
+- [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
+  - Balsamiq was used to create the wireframes during the design process.
+- [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint "Link to Wikipedia Microsoft Paint")
+  - Microsoft Paint was used for resizing images and editing photos for the website.
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+  - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+- [FREE FORMATTER](https://www.freeformatter.com/ "Link to Free Formatter home page")
+  - Free Formatter was used to format all html script.
 
 ## Media
 
-**Background Image** - covering the first part of the page. It is designed in cheerful colors to make the page cheerful and fun. The picture contains animals as well as the memory game itself. I choose this image because it's children friendly and everyone loves animals.
+[Wordsup](https://wordsup.co.uk/logo-quiz.php#google_vignette) - was used for all brand images during gameplay.
+[IconScout](https://iconscout.com/) - was used for all the emojis in the quiz.
 
-**Memory Game** - the images contain animals, each with a background of a different color which makes game fun and colorful.
+[Back to top](#love-logo)  
 
-# Technologies Used
-
-## Languages
-
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/CSS)
-- [JS](https://en.wikipedia.org/wiki/JavaScript)
-
-## Frameworks, Libraries & Programs Used
-
-- [Google Fonts](https://fonts.google.com/https://fonts.google.com/) - provide Indie Flower fonts for the website.
-
-- [Github](https://github.com/IrisSmok) - was used to store the project code.
-
-- [Gitpod](https://www.gitpod.io/) - was used for coding.
-
-- [Font Awesome](https://fontawesome.com/) -was used for the "Did you know?" list icons.
-
-- [Balsamiq](https://balsamiq.com/) - was used to create site wireframes.
-
-- [Am I Responsive](http://ami.responsivedesign.is/) - to check if the site is responsive on different screen sizes.
-
-- [Tiny PNG](https://tinypng.com/) - this site is used to help me compress the images
-
-- [Birme](https://www.birme.net/?target_width=150&target_height=150) - to help me resize the photos for memory board
-
-- [Freepik](https://www.freepik.com/home) - was used for background image
-
-- [Pixabay](https://pixabay.com/) - was used for all the images in the memory game
-
-- [Beautify Tools](https://beautifytools.com/javascript-validator.php) - was used to validate JS
-
-- [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - was used to validate HTML
-
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - was used to validate CSS
-
-- [Beautify](https://www.jpkc.com/tools/beautify/) - was used to correct indentation issues and get rid of too much whitespace - HTML, CSS and JS
-
-- [Coolors](https://coolors.co/9df57a-3c444c-fee73b-ff4f98-2daaf3-a9bedb) - to make color palette
-
-# Testing
-
-- Tested on Chrome, Opera, Microsoft Edge, and Firefox desktop version browsers
-- Chrome Developer Tools are used to test the responsiveness on: Desktop, Laptop, Moto G4, Galaxy S5, iPhone 5/SE, iPhone 6,7,8, iPhone 6,7,8 Plus, iPad, iPad Pro, Galaxy Fold
-
- Ensure that all user stories are achieved:
-
-**For parents:**
-
-- When entering the page, the parent can quickly and easily see the bright and nice color, images and content of the page.
-- Clicking on the "How to play" button, the child can read game instructions that are clear and short.
-- The game is fun and challenging for kids. Cheerful images make it fun, while moves counter and timer make it challenging.
-
-**For user:**
-
-- The game is fun for kids. Images of animals, cards that are shuffled each time a new game starts, moves counter and timer makes the game fun and challenging.
-- Memory game is designed in bright and colorful colors. Animals images cards with colorful backgrounds make the game nice.
-- The background image and cards images are bright and cheerful, easily capturing the user's attention
-- A move counter and timer are placed under the memory board so that the user can see the moves and time he made during the game. When users find all 16 matches, a congratulatory pop-up window with final time and moves appears.
-
-I used Lighthouse tools to test my website
-<p align="center">
-<img src="assets/images/readme/lighthouse-memory-game2.png" width="400" height="100%">
-</p>
-
-## Bugs and Issues
-
-- Play button was located inside the "a" tag, which threw a bug in the HTML Validator. I solved the problem by replacing the button tag with the span tag.
-
-- Warning: Family names containing whitespace should be quoted. If quoting is omitted, any whitespace characters before and after the name are ignored and any sequence of whitespace characters inside the name is converted to a single space.
-warning was fixed by adding quotes to the Family names
-
-- While playing a memory game I noticed that if you press the reset button you can't turn the cards over again, only after a few seconds. The problem was solved by adding the ResetBoard function to the startGame function which allows the memory board to reset
-
-- I found an error some of the devices were not responsive, Galaxy Fold. I solved this problem by adding an extra media query - max-width 300px
-
-# Final Product
-
-## Desktop View
-
-<p align="center">
-<img src="assets/images/readme/final-product-desktop-view.png" width="700" height="600">
-
-<p align="center">
-<img src="assets/images/readme/final-product-desktop-view2.png" width="700" height="500">
-</p>
-
-<p align="center">
-<img src="assets/images/readme/final-product-desktop-view3.png" width="700" height="500">
-</p>
-
-## Tablet View
-
- <p align="center">
-<img src="assets/images/readme/final-product-tablet-view.png" width="500" height="700">
-</p>
-
-<p align="center">
-<img src="assets/images/readme/final-product-tablet-view2.png" width="500" height="600">
-</p>
-
-<p align="center">
-<img src="assets/images/readme/final-product-tablet-view3.png" width="500" height="700">
-</p>
-
-## Mobile View
-
- <p align="center">
-<img src="assets/images/readme/final-product-mobile-view.png" width="500" height="900">
-</p>
-
- <p align="center">
-<img src="assets/images/readme/final-product-mobile-view2.png" width="500" height="900">
-</p>
-
- <p align="center">
-<img src="assets/images/readme/final-product-mobile-view3.png" width="500" height="900">
-</p>
-
-# Deployment
+## **Deployment**
 
 ## GitHub Pages
 
-1. Log into GitHub and locate the repository.
-2. At the top locate the settings option.
-3. Scroll towards  the bottom of the page and locate GitHub Pages.
-4. Click on the link "Check it out here!".
-4. Under 'Source' dropdown, click 'Master' from the options.
-5. Click the save button.
+1. Log into GitHub and locate the repository 'ci_project_2'
+2. [Click here to view](https://github.com/lisaloudness/ci_project_2/settings/pages)
+3. At the top locate the settings option.
+4. Scroll towards the bottom of the page and locate GitHub Pages.
+5. Under 'Source' dropdown, click 'Master' from the options.
+6. Click the save button.
 6. The site is now published, it may not be available immediately.
-7. The site URL is visible on the green bar under the "Github Pages".
+7. The site URL is visible on the top of "Github Pages".
 
 ## To run locally
 
-- Log into GitHub and select a repository to download.
-- Select code and Download the ZIP file.
-- Once the download is complete, you can extract the file and use it in your local environment.
+1. Log into GitHub and select a repository to download.
+2. Select code and Download the ZIP file.
+3. Once the download is complete, you can extract the file and use it in your local environment.
 
-# Credits
+## **Bugs**
 
-Memory Game:
+1. High score is logged twice onto the list - at the end of the game and when the High score button is clicked.
 
-- [Marina Ferreira](https://github.com/code-sketch/memory-game) - youtube
-- [Web Dev](https://www.youtube.com/watch?v=bbb9dZotsOc) - youtube
-- [Sandra Israel](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) - for congratulations window, timer and moves
+## **Future Development**
 
-## Media
+1. Add more levels to increase difficulty
+2. Tailor the content to specific age groups (5-10; 8-15; 10+)
+3. Tailor the logos into specific categories (ie. cars, confectionary, toys, etc)
+4. Add music during gameplay.
+5. Add sound effects to emphasize emoji.
 
-[Freepik](https://www.freepik.com/home) - was used for background image
+## **Credits**
 
-[Pixabay](https://pixabay.com/) - was used for all the images in the memory game
+- [CodingNepal](https://www.youtube.com/watch?v=hSSdc8vKP1I&t=398s) - youtube
+- [Coding Pen](https://codepen.io/Rudchyk/pen/qNOEGj - for progress bar
 
-## Acknowledgements
+## **Acknowledgements**
 
-- Thanks to my mentor for helpful feedback
-- Slack community for answering all my questions
-- Big thanks to my children for testing the website
-- My mentor Iris for support and helpful feedback
+1. Big thanks to my children for testing the website.
+2. Iris Smok - Cohort Facilitator for her continued support.
+3. Seun - Mentor for her valued input and suggestions.
+
+[Back to top](#love-logo)
