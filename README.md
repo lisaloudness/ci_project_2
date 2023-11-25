@@ -1,3 +1,4 @@
+
 # **Love Logo**
 
 ![Love Logo in various devices](assets/images/responsive.png "Love Logo quiz in various devices")
@@ -10,11 +11,11 @@
   - [**Table Of Content**](#table-of-content)
   - [**Introduction**](#introduction)
   - [**Development**](#development)
-  - [Wireframes](#wireframes)
-      - [Start Page](#start-page)
-      - [Game page](#game-page)
-      - [Mobile Viewport](#mobile-viewport)
-      - [Modal](#modal)
+  - [**Wireframes**](#wireframes)
+    - [Start Page](#start-page)
+    - [Game page](#game-page)
+    - [Mobile Viewport](#mobile-viewport)
+    - [Modal](#modal)
   - [**UX**](#ux)
     - [User Demographic](#user-demographic)
     - [User-Stories](#user-stories)
@@ -22,17 +23,17 @@
       - [New User Goals](#new-user-goals)
       - [Future User Goals](#future-user-goals)
   - [**UI**](#ui)
-    - [**Layout**](#layout)
+    - [Layout](#layout)
     - [Structure](#structure)
-  - [**Color scheme**](#color-scheme)
+    - [**Color scheme**](#color-scheme)
   - [**Testing**](#testing)
   - [**Technologies Used**](#technologies-used)
-    - [**Main Languages Used**](#main-languages-used)
-    - [**Frameworks, Libraries \& Programs Used**](#frameworks-libraries--programs-used)
-    - [**Media**](#media)
+    - [Main Languages Used](#main-languages-used)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+    - [Media](#media)
   - [**Deployment**](#deployment)
-    - [**GitHub Pages**](#github-pages)
-    - [**To run locally**](#to-run-locally)
+    - [GitHub Pages](#github-pages)
+    - [Run Locally](#run-locally)
   - [**Bugs**](#bugs)
   - [**Future Development**](#future-development)
   - [**Credits**](#credits)
@@ -59,21 +60,22 @@ To represent user stories for multiple end users informal discussions were held 
 - 5 year old girl
 - 12 year old boy
 
-## Wireframes
+## **Wireframes**
 
-#### Start Page
+### Start Page
 
 ![Wireframe Start Page mockup](/assets/images/wirehome.png)
 
-#### Game page
+### Game page
 
 ![Wireframe Game page mockup](/assets/image/wirequizdesk.png)
 
-#### Mobile Viewport
+### Mobile Viewport
 
 ![Wireframe Mobile Screen mockup](/assets/image/wiremobile.png)
 
-#### Modal
+### Modal
+
 ![Wireframe Modal Popup mockup](/assets/image/modal.png)
 
 [Back to top](#love-logo)
@@ -116,7 +118,7 @@ Future users will be people who want to play an interactive quiz.
 
 ## **UI**
 
-### **Layout**
+### Layout
 
 - A simple and colorful page structure so that the user can easily find the game
 - "Play" button - takes the user to the play section
@@ -158,7 +160,7 @@ Incorrect Guesses counter and Overall Score counter is positioned in container r
 
 The picture of the logo is positioned left side of the game container.
 
-## **Color scheme**
+### **Color scheme**
 
 Using the [COOLERS](https://coolors.co/image-picker) color palette generator, the color scheme chosen is based on the logo.
 
@@ -176,7 +178,7 @@ All testing performed for Milestone Project 2 can be found here:
 
 ## **Technologies Used**
 
-### **Main Languages Used**
+### Main Languages Used
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript "Link to JavaScipt Wiki")
 
@@ -184,7 +186,7 @@ All testing performed for Milestone Project 2 can be found here:
 
 - [CSS3](https://en.wikipedia.org/wiki/Code_Composer_Studio "Link to CSS Wiki")
 
-### **Frameworks, Libraries & Programs Used**
+### Frameworks, Libraries & Programs Used
 
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
   - Google fonts was used to import the fonts "Nunito"and "Roboto"into the style.css file. These fonts were used throughout the project.
@@ -203,7 +205,7 @@ All testing performed for Milestone Project 2 can be found here:
 - [FREE FORMATTER](https://www.freeformatter.com/ "Link to Free Formatter home page")
   - Free Formatter was used to format all html script.
 
-### **Media**
+### Media
 
 - [Wordsup](https://wordsup.co.uk/logo-quiz.php#google_vignette) - was used for all brand images during gameplay.
 - [IconScout](https://iconscout.com/) - was used for all the emojis in the quiz.
@@ -212,7 +214,7 @@ All testing performed for Milestone Project 2 can be found here:
 
 ## **Deployment**
 
-### **GitHub Pages**
+### GitHub Pages
 
 1. Log into GitHub and locate the repository 'ci_project_2'
 2. [Click here to view](https://github.com/lisaloudness/ci_project_2/settings/pages)
@@ -223,7 +225,7 @@ All testing performed for Milestone Project 2 can be found here:
 7. The site is now published, it may not be available immediately.
 8. The site URL is visible on the top of "Github Pages".
 
-### **To run locally**
+### Run Locally
 
 1. Log into GitHub and select a repository to download.
 2. Select code and Download the ZIP file.
