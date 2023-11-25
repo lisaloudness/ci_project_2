@@ -68,15 +68,15 @@ To represent user stories for multiple end users informal discussions were held 
 
 ### Game page
 
-![Wireframe Game page mockup](/assets/image/wirequizdesk.png)
+![Wireframe Game page mockup](/assets/images/wirequizdesk.png)
 
 ### Mobile Viewport
 
-![Wireframe Mobile Screen mockup](/assets/image/wiremobile.png)
+![Wireframe Mobile Screen mockup](/assets/images/wiremobile.png)
 
 ### Modal
 
-![Wireframe Modal Popup mockup](/assets/image/modal.png)
+![Wireframe Modal Popup mockup](/assets/images/modal.png)
 
 [Back to top](#love-logo)
 
