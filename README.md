@@ -156,7 +156,7 @@ Using the [COOLERS](https://coolors.co/image-picker) color palette generator, th
 
 ![Colour Palette](assets/images/palette.png)
 <p align="center">
-<img src="assets/images/palette.png" width="900" height="250">
+<img src="assets/images/palette.png" width="900" height="350">
 </p>
 
 [Back to top](#love-logo)

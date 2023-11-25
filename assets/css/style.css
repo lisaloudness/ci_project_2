@@ -33,7 +33,7 @@ body {
   color: #353a9b;
 }
 .container {
-  
+  margin: auto;
   background: #fff;
   display: flex;
   gap: 70px;
