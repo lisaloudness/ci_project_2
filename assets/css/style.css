@@ -393,11 +393,14 @@ li {
 }
 
 @media (max-width: 765px) {
-  .container {
+  .body {
+    overflow: hidden;
+  }
+    .container {
     flex-direction: column;
     padding: 15px 10px;
     align-items: center;
-    overflow: hidden;
+    
   }
 
   .button {
