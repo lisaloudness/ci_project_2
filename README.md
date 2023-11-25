@@ -25,7 +25,7 @@
   - [**UI**](#ui)
     - [Layout](#layout)
     - [Structure](#structure)
-    - [**Color scheme**](#color-scheme)
+    - [Color Scheme](#color-scheme)
   - [**Testing**](#testing)
   - [**Technologies Used**](#technologies-used)
     - [Main Languages Used](#main-languages-used)
@@ -144,7 +144,7 @@ Future users will be people who want to play an interactive quiz.
 - The design of this site is bright and bold with 2 tone colors. The aesthetic design of the game is kept simple to enable an intuitive UX experience and the main goal of this game is to be fun. The site is intended for children and adults and the content of the logos can be easily adapted and updated to target specific user groups.
 
 The quiz consists of 2 main pages:-
-The first page is the landing page of the game and consists of a title and content container. The container contains the game brand logo and  3 control buttons:-
+- The first page is the landing page of the game and consists of a title and content container. The container contains the game brand logo and  3 control buttons:-
 
 - **Play Button**  
   - located in the container above the "How to Play" button, takes the user to the game section.
@@ -160,7 +160,7 @@ Incorrect Guesses counter and Overall Score counter is positioned in container r
 
 The picture of the logo is positioned left side of the game container.
 
-### **Color scheme**
+### Color Scheme
 
 Using the [COOLERS](https://coolors.co/image-picker) color palette generator, the color scheme chosen is based on the logo.
 
