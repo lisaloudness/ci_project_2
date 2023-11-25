@@ -392,7 +392,7 @@ li {
     /* Color for the 3rd place */
 }
 
-@media (max-width: 765px) {
+@media (max-width: 500px) {
   .body {
     overflow: hidden;
   }
@@ -406,10 +406,7 @@ li {
   .button {
     margin: 5px;
   }
-
-  .logo-box img {
-    max-width: 70%;
-  }
+  
   .progress-text {
     font-size: 0.5rem;
   }
