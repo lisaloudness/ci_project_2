@@ -13,6 +13,8 @@
   - [Wireframes](#wireframes)
       - [Start Page](#start-page)
       - [Game page](#game-page)
+      - [Mobile Viewport](#mobile-viewport)
+      - [Modal](#modal)
   - [**UX**](#ux)
     - [User Demographic](#user-demographic)
     - [User-Stories](#user-stories)
@@ -61,11 +63,18 @@ To represent user stories for multiple end users informal discussions were held 
 
 #### Start Page
 
-![Wireframe Home Page mockup](/assets/images/home_page.webp)
+![Wireframe Start Page mockup](/assets/images/wirehome.png)
 
 #### Game page
 
-![Wireframe Facilities page mockup](/assets/images/facilities_page.webp)
+![Wireframe Game page mockup](/assets/image/wirequizdesk.png)
+
+#### Mobile Viewport
+
+![Wireframe Mobile Screen mockup](/assets/image/wiremobile.png)
+
+#### Modal
+![Wireframe Modal Popup mockup](/assets/image/modal.png)
 
 [Back to top](#love-logo)
 
