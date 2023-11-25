@@ -377,6 +377,26 @@ li {
     margin-right: 10px;
 }
 
+/**Social Media Footer**/
+.social-footer {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-footer-icons li:last-of-type {
+    margin-right: 0;
+}
+
+.fa {
+    font-size: 2rem;
+    color: #fff;
+}
+.fa:hover {
+    color: #353a9b;
+    transition: color 0.3s ease-in;
+}
+
 @media (max-width: 500px) {
   .body {
     overflow: hidden;
