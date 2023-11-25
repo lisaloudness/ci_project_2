@@ -17,7 +17,7 @@ body {
   height: 100vh;
   background: #5e63ba;
 }
-
+/*Title Text*/
 .love-logo {
   text-align: center;
   padding-bottom: 10px;
@@ -32,6 +32,8 @@ body {
 .love-logo :hover {
   color: #353a9b;
 }
+
+/*White container where all information and interaction will take place*/
 .container {
   margin: auto;
   background: #fff;
@@ -72,6 +74,7 @@ border-radius: 10px;
  margin-bottom: 20px;
  cursor: pointer;
 }
+
 .controls a {
     text-decoration: none;
     color: #fff;
@@ -179,6 +182,7 @@ padding-top: 10px;
   background-color: #8286c9;
 }
 
+/**Correct / Incorrect Feedback Modal**/
 .game-modal {
   position: fixed;
   left: 0;
@@ -233,6 +237,7 @@ padding-top: 10px;
   padding: 12px 23px;
 }
 
+/**How To Modal Popup Styling**/
 .instructions {
   display: none;
   position: fixed;
@@ -270,7 +275,8 @@ padding-top: 10px;
     text-decoration: none;
     font-weight: 700;
 }
-/* The Close Button */
+
+/* The Close Button on How To Modal*/
 #close-btn {
 padding: 12px 23px;
 }
@@ -282,6 +288,7 @@ padding: 12px 23px;
   cursor: pointer;
 }
 
+/**Timer countdown bar**/
 .full-width {
   width: 100%;
 }
@@ -345,11 +352,12 @@ li {
   box-sizing: border-box;
 }
 
-/*Leader Board Styling*/
+/*High Score Board Styling*/
 .finalscore {
   position: flex;
   text-align: center;
 }
+
 #highScoresList {
     list-style: none;
     padding: 0;
@@ -384,6 +392,7 @@ li {
     align-items: center;
     justify-content: space-between;
 }
+
 .social-footer-icons li:last-of-type {
     margin-right: 0;
 }
@@ -392,11 +401,13 @@ li {
     font-size: 2rem;
     color: #fff;
 }
+
 .fa:hover {
     color: #353a9b;
     transition: color 0.3s ease-in;
 }
 
+/**Breakpoint media query for mobile viewport**/
 @media (max-width: 500px) {
   .body {
     overflow: hidden;
