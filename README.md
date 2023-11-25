@@ -1,6 +1,6 @@
 # **Love Logo**
 
-![Victoria Park website in various devices](assets/images/responsive.png "Love Logo quiz in various devices")
+![Love Logo in various devices](assets/images/responsive.png "Love Logo quiz in various devices")
 
 [View the live project here](https://lisaloudness.github.io/ci_project_2/index.html)
 
@@ -27,10 +27,10 @@
   - [**Technologies Used**](#technologies-used)
     - [**Main Languages Used**](#main-languages-used)
     - [**Frameworks, Libraries \& Programs Used**](#frameworks-libraries--programs-used)
-  - [Media](#media)
+    - [**Media**](#media)
   - [**Deployment**](#deployment)
-  - [GitHub Pages](#github-pages)
-  - [To run locally](#to-run-locally)
+    - [**GitHub Pages**](#github-pages)
+    - [**To run locally**](#to-run-locally)
   - [**Bugs**](#bugs)
   - [**Future Development**](#future-development)
   - [**Credits**](#credits)
@@ -45,7 +45,7 @@ The inspiration for this quiz are my children. I wanted to develop a game that d
 It can be played on your own or with others.  With this game, screen time becomes a positive neurological exercise, developing critical thinking, spelling and attention to detail.
 Lovo Logo is intended for children and adults (5+years).
 
-Please note that this quiz was created for the Code Institute’s Milestone Project 2 as part of their Diploma in Full Stack Software Development. The requirements are to make an interactive front-end website using HTML, CSS, and Javascript.  
+Please note that this quiz was created for the Code Institute’s Milestone Project 2 as part of their Diploma in Full Stack Software Development. The requirements are to design, develop and implement an interactive front-end website using HTML, CSS, and Javascript.  
 
 [Back to top](#love-logo)
 
@@ -194,16 +194,16 @@ All testing performed for Milestone Project 2 can be found here:
 - [FREE FORMATTER](https://www.freeformatter.com/ "Link to Free Formatter home page")
   - Free Formatter was used to format all html script.
 
-## Media
+### **Media**
 
-[Wordsup](https://wordsup.co.uk/logo-quiz.php#google_vignette) - was used for all brand images during gameplay.
-[IconScout](https://iconscout.com/) - was used for all the emojis in the quiz.
+- [Wordsup](https://wordsup.co.uk/logo-quiz.php#google_vignette) - was used for all brand images during gameplay.
+- [IconScout](https://iconscout.com/) - was used for all the emojis in the quiz.
 
 [Back to top](#love-logo)  
 
 ## **Deployment**
 
-## GitHub Pages
+### **GitHub Pages**
 
 1. Log into GitHub and locate the repository 'ci_project_2'
 2. [Click here to view](https://github.com/lisaloudness/ci_project_2/settings/pages)
@@ -214,7 +214,7 @@ All testing performed for Milestone Project 2 can be found here:
 6. The site is now published, it may not be available immediately.
 7. The site URL is visible on the top of "Github Pages".
 
-## To run locally
+### **To run locally**
 
 1. Log into GitHub and select a repository to download.
 2. Select code and Download the ZIP file.
@@ -235,7 +235,7 @@ All testing performed for Milestone Project 2 can be found here:
 ## **Credits**
 
 - [CodingNepal](https://www.youtube.com/watch?v=hSSdc8vKP1I&t=398s) - youtube
-- [Coding Pen](https://codepen.io/Rudchyk/pen/qNOEGj - for progress bar
+- [Coding Pen](https://codepen.io/Rudchyk/pen/qNOEGj) - for progress bar
 
 ## **Acknowledgements**
 
