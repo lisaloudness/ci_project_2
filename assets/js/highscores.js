@@ -1,9 +1,7 @@
-//
-document.addEventListener("DOMContentLoaded", function () {
-   const score = parseInt(localStorage.getItem('score')) || 0;
-    const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+const score = parseInt(localStorage.getItem('score')) || 0;
+const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
-highScores.push(score);
+
 highScores.sort((a, b) => b - a);
 const top5Scores = highScores.slice(0, 5); //keep only top 5 scores
 localStorage.setItem('highScores', JSON.stringify(top5Scores));
@@ -23,6 +21,3 @@ function displayHighScores() {
     console.log("score", score);
     console.log("highScores", highScores);
 
-
-console.log(score);
-});
