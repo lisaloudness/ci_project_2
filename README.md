@@ -174,7 +174,7 @@ Using the [COOLERS](https://coolors.co/image-picker) color palette generator, th
 ## **Testing**
 
 All testing performed for Milestone Project 2 can be found here:
-[View Test Document here](/TESTING.md)
+[View Test Document here](test.md)
 
 ## **Technologies Used**
 
