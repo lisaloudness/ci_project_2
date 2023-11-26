@@ -45,6 +45,10 @@ document.addEventListener("DOMContentLoaded", function () {
         instructions.style.display = "none";
     }
 
+//Go to High score page when button is clicked
+    
+
+
     //Timer Progress Bar- Borrowed code//
     function progress(timeleft, timetotal, $element) {
         var progressBarWidth = (timeleft * $($element)
