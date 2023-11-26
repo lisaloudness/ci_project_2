@@ -14,8 +14,7 @@
   - [**Wireframes**](#wireframes)
     - [Start Page](#start-page)
     - [Game page](#game-page)
-    - [Mobile Viewport](#mobile-viewport)
-    - [Modal](#modal)
+    - [Mobile Viewport \& Modal](#mobile-viewport--modal)
   - [**UX**](#ux)
     - [User Demographic](#user-demographic)
     - [User-Stories](#user-stories)
@@ -70,13 +69,9 @@ To represent user stories for multiple end users informal discussions were held 
 
 ![Wireframe Game page mockup](/assets/images/wirequizdesk.png)
 
-### Mobile Viewport
+### Mobile Viewport & Modal
 
 ![Wireframe Mobile Screen mockup](/assets/images/wiremobile.png)
-
-### Modal
-
-![Wireframe Modal Popup mockup](/assets/images/modal.png)
 
 [Back to top](#love-logo)
 
@@ -141,7 +136,7 @@ Future users will be people who want to play an interactive quiz.
 - **Play Section**  
   - within the container, the Play Screen consists of 2 sections. The Logo image question is displayed on the left and the quiz elements are displayed on the right. The dynamic keyboard is live for the user to select the letters that they believe is the name of the brand.
 
-- The design of this site is bright and bold with 2 tone colors. The aesthetic design of the game is kept simple to enable an intuitive UX experience and the main goal of this game is to be fun. The site is intended for children and adults and the content of the logos can be easily adapted and updated to target specific user groups.
+  The design of this site is bright and bold with 2 tone colors. The aesthetic design of the game is kept simple to enable an intuitive UX experience and the main goal of this game is to be fun. The site is intended for children and adults and the content of the logos can be easily adapted and updated to target specific user groups.
 
 The quiz consists of 2 main pages:-
   The first page is the landing page of the game and consists of a title and content container. The container contains the game brand logo and  3 control buttons:-
