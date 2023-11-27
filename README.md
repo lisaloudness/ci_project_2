@@ -23,7 +23,7 @@
   - [**UI**](#ui)
     - [Layout](#layout)
     - [Structure](#structure)
-    - [**Design Walkthrough**](#design-walkthrough)
+    - [Design Walkthrough](#design-walkthrough)
     - [Color Scheme](#color-scheme)
   - [**Testing**](#testing)
   - [**Technologies Used**](#technologies-used)
@@ -141,7 +141,7 @@ Future users will be people who want to play an interactive quiz.
 
   The design of this site is bright and bold with 2 tone colors. The aesthetic design of the game is kept simple to enable an intuitive UX experience and the main goal of this game is to be fun. The site is intended for children and adults and the content of the logos can be easily adapted and updated to target specific user groups.
 
-### **Design Walkthrough**
+### Design Walkthrough
 
 The quiz consists of 2 main pages:-
 
@@ -174,7 +174,7 @@ Using the [COOLERS](https://coolors.co/image-picker) color palette generator, th
 ## **Testing**
 
 All testing performed for Milestone Project 2 can be found here:
-[View Test Document here](assets/Testing/test.mdtest.md)
+[View Test Document here](assets/Testing/test.md)
 
 ## **Technologies Used**
 
