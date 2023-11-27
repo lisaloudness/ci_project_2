@@ -83,14 +83,14 @@
 
 JSHint was used to detect errors and potential problems in JavaScript code.
 [JSHint version 2.13.6](https://jshint.com/) - There were no errors detected.
-![JS Validation, no error detected](assets/testing/jshint.png "HTML Validation, no error detected")
+![JS Validation, no error detected](jshint.png "HTML Validation, no error detected")
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the html and css code.  
 [W3C Markup Validator](https://validator.w3.org) - There were no error detected.
-![HTML Validation, no error detected](assets/testing/w3_index.png "HTML Validation, no error detected")
+![HTML Validation, no error detected](w3_index.png "HTML Validation, no error detected")
 
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - There were no error detected.
-![CSS Validator, no error detected](assets/testing/w3_css.png "CSS Validation, no error detected")
+![CSS Validator, no error detected](w3_css.png "CSS Validation, no error detected")
 
 ### **Browser Validation**
 
