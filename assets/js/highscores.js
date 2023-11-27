@@ -8,7 +8,7 @@ localStorage.setItem('highScores', JSON.stringify(top5Scores));
 
 function displayHighScores() {
     const highScoresList = document.getElementById("highScoresList");
-    highScoresList.innerHTML = '';  //Clear previous high scores
+    highScoresList.innerHTML = ''; //Clear previous high scores
     //Display the top 5 high scores
     top5Scores.forEach((score, index) => {
         const listItem = document.createElement('li');
@@ -17,7 +17,4 @@ function displayHighScores() {
 
     });
 }
-    displayHighScores();
-    console.log("score", score);
-    console.log("highScores", highScores);
-
+displayHighScores();
