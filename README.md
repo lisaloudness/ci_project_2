@@ -203,7 +203,7 @@ All testing performed for Milestone Project 2 can be found here:
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
   - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 - [FREE FORMATTER](https://www.freeformatter.com/ "Link to Free Formatter home page")
-  - Free Formatter was used to format all html script.
+  - Free Formatter was used to format all JS script.
 
 ### Media
 
