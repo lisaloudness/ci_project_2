@@ -1,4 +1,4 @@
-# Love Logo - Testing
+# **Love Logo - Testing**
 
 [Main README.md file](/README.md)
 
@@ -8,10 +8,10 @@
 
 </br>
 
-## Table of Contents
+## **Table of Contents**
 
-- [Love Logo - Testing](#love-logo---testing)
-  - [Table of Contents](#table-of-contents)
+- [**Love Logo - Testing**](#love-logo---testing)
+  - [**Table of Contents**](#table-of-contents)
   - [**Testing User Stories**](#testing-user-stories)
   - [**Manual Testing**](#manual-testing)
   - [**Automated Testing**](#automated-testing)
@@ -69,7 +69,7 @@
    - All navigation links are working.
    - Hover states work correctly.
 
-3. The javascript was tested to ensure that:
+3. Javascript was tested to ensure that:
    - The quiz performed as expected.
 
 4. Website compatibility was tested on Firefox, Chrome, Edge and Safari browsers. No issues to note.
@@ -80,6 +80,10 @@
 ## **Automated Testing**
 
 ### **Code Validation**
+
+JSHint was used to detect errors and potential problems in JavaScript code.
+[JSHint version 2.13.6](https://jshint.com/) - There were no errors detected.
+![JS Validation, no error detected](assets/testing/jshint.png "HTML Validation, no error detected")
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the html and css code.  
 [W3C Markup Validator](https://validator.w3.org) - There were no error detected.

@@ -23,6 +23,7 @@
   - [**UI**](#ui)
     - [Layout](#layout)
     - [Structure](#structure)
+    - [**Design Walkthrough**](#design-walkthrough)
     - [Color Scheme](#color-scheme)
   - [**Testing**](#testing)
   - [**Technologies Used**](#technologies-used)
@@ -173,7 +174,7 @@ Using the [COOLERS](https://coolors.co/image-picker) color palette generator, th
 ## **Testing**
 
 All testing performed for Milestone Project 2 can be found here:
-[View Test Document here](test.md)
+[View Test Document here](assets/Testing/test.mdtest.md)
 
 ## **Technologies Used**
 
