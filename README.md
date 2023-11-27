@@ -234,7 +234,7 @@ All testing performed for Milestone Project 2 can be found here:
 ## **Bugs**
 
 1. Latency issue with the modal image. When the modal is called, there is a slight delay from the last called image to correct image.
-2. When validating and beautifing my code as final checks and finishes to project, this broke my code so I had to revert to a preious commit.
+2. When validating errors and beautifing my code as final finishes to project, this broke my code so I had to revert to a previous commit. This was mainly in index.html where elements have empty values as js determines the value. This caused errors in validation but any fixes would break the code so left as is. 
 3. Backend server issues with codeanywhere during final days of project very frustrating - unable to fully complete project as I would have liked.
 
 ## **Future Development**
