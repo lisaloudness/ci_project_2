@@ -247,6 +247,7 @@ All testing performed for Milestone Project 2 can be found here:
 6. Increase logo database.
 7. Add interactive user feedback form.
 8. Add feedback message and Try Again button to Time Out modal.
+9. Ability to clear local storage of high scores.
 
 ## **Credits**
 
