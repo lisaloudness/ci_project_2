@@ -1,140 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Playpen+Sans:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Playpen+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/script.js" defer></script>
     <script src="./assets/js/word-list.js" defer></script>
-    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
     <title>Love Logo</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <div>
-        <a href="index.html" class="love-logo"><h1>Love Logo</h1></a>
-      </div>
+        <div>
+            <a href="index.html" class="love-logo">
+                <h1>Love Logo</h1>
+            </a>
+        </div>
     </header>
 
     <section id="start-screen">
-      <div class="container">
-        <div class="logo-box">
-          <img src="assets/images/LoveLogo_notxt.png" alt="lovelogos logo">
-          <h2>Guess The Brand</h2>
+        <div class="container">
+            <div class="logo-box">
+                <img src="assets/images/LoveLogo_notxt.png" alt="lovelogos logo" />
+                <h2>Guess The Brand</h2>
+            </div>
+            <div class="controls">
+                <div>
+                    <button class="control-btn" id="start-btn">Start</button>
+                    <button class="control-btn" id="how-btn">How To Play</button>
+                    <button class="control-btn" id="score-btn" onclick="window.location.href='highscores.html'">
+                        High Score
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="controls">
-          <div>
-            <button class="control-btn" id="start-btn">Start</button>
-            <button class="control-btn" id="how-btn">How To Play</button>
-            <button
-              class="control-btn"
-              id="score-btn"
-              onclick="window.location.href='highscores.html'"
-            >
-              High Score
-            </button>
-          </div>
-        </div>
-      </div>
     </section>
     <section id="game-modal">
-      <div class="game-modal">
-        <div class="content">
-          <img src="." alt="emoji">
-          <h4>.</h4>
-          <p>The correct answer was: <b>.</b></p>
-          <button class="play-again">Next</button>
+        <div class="game-modal">
+            <div class="content">
+                <img src="" alt="" />
+                <h4></h4>
+                <p>The correct answer was: <b></b></p>
+                <button class="play-again">Next</button>
+            </div>
         </div>
-      </div>
     </section>
 
     <section id="play-screen" style="display: none">
-      <div class="container">
-        <div class="logo-box">
-          <img class="logo" src="." alt="brand logo">
-          <h2>Guess the logo</h2>
+        <div class="container">
+            <div class="logo-box">
+                <img class="logo" src="" alt="" />
+                <h2>Guess the logo</h2>
+            </div>
+            <div class="game-box">
+                <ul class="word-display"></ul>
+                <h4 class="guesses-text">
+                    Incorrect Guesses:
+                    <b>0 / 4</b>
+                </h4>
+                <div class="keyboard"></div>
+                <h4 class="score">
+                    Overall Score:
+                    <b>0</b>
+                </h4>
+            </div>
         </div>
-        <div class="game-box">
-          <ul class="word-display"></ul>
-          <h4 class="guesses-text">
-            Incorrect Guesses:
-            <b>0 / 4</b>
-          </h4>
-          <div class="keyboard"></div>
-          <h4 class="score">
-            Overall Score:
-            <b>0</b>
-          </h4>
-        </div>
-      </div>
     </section>
     <section id="progress-bar" style="display: none">
-      <div class="full-width">
-        <div class="container_progress">
-          <div class="row text-center">
-            <p class="progress-text">
-              NAME AS MANY BRANDS BEFORE THE TIMER RUNS OUT
-            </p>
-            <div id="progressBar">
-              <div></div>
+        <div class="full-width">
+            <div class="container_progress">
+                <div class="row text-center">
+                    <p class="progress-text">
+                        NAME AS MANY BRANDS BEFORE THE TIMER RUNS OUT
+                    </p>
+                    <div id="progressBar">
+                        <div></div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <div id="instructions" class="instructions">
-      <div class="instructions-wrapper">
-        <img src="assets/images/Thinking.png" alt="thinking emoji">
-        <h4>How To Play</h4>
-        <div class="instructions-list">
-          <p>- Name as many logos of well known brands in 2 minutes.</p>
-          <p>
-            - Guess incorrectly 4 times and the game will move to the next logo.
-          </p>
-          <p>
-            - Your highest scores will make the
-            <a href="highscores.html">High Score Table.</a>
-          </p>
+        <div class="instructions-wrapper">
+            <img src="assets/images/Thinking.png" alt="thinking emoji" />
+            <h4>How To Play</h4>
+            <div class="instructions-list">
+                <p>- Name as many logos of well known brands in 2 minutes.</p>
+                <p>
+                    - Guess incorrectly 4 times and the game will move to the next logo.
+                </p>
+                <p>
+                    - Your highest scores will make the
+                    <a href="highscores.html">High Score Table.</a>
+                </p>
+            </div>
+            <button id="close-btn">Close</button>
         </div>
-        <button id="close-btn">Close</button>
-      </div>
     </div>
     <footer class="social-footer">
-      <div class="social-footer-icons">
-        <ul class="menu simple">
-          <li>
-            <a href="https://www.facebook.com/" target="_blank">
-             <i class="fa fa-facebook" aria-hidden="true"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/?hl=en" target="_blank"
-              ><i class="fa fa-instagram" aria-hidden="true"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.pinterest.com/" target="_blank"
-              ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/?lang=en" target="_blank"
-              ><i class="fa fa-twitter" aria-hidden="true"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
+        <div class="social-footer-icons">
+            <ul class="menu simple">
+                <li>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
     </footer>
-  </body>
+</body>
+
 </html>
