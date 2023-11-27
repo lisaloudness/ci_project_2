@@ -14,8 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
-    let currentWord, correctLetters, wrongGuessCount, score;
-    instructions, $, wordList;
+    let currentWord, correctLetters, wrongGuessCount, score, instructions, $, wordList;
     let usedWords = [];
     const maxGuesses = 4;
 
@@ -67,8 +66,8 @@ document.addEventListener("DOMContentLoaded", function () {
         //Borrowed code end//
         else {
             onTimeUp();
-        };
-    };
+        }
+    }
     //Modal to show at end of timer
     function onTimeUp() {
         const timeText = "You Scored:";
