@@ -245,6 +245,8 @@ All testing performed for Milestone Project 2 can be found here:
 4. Add music during gameplay.
 5. Add sound effects to emphasize emoji.
 6. Increase logo database.
+7. Add interactive user feedback form.
+8. Add feedback message and Try Again button to Time Out modal.
 
 ## **Credits**
 
