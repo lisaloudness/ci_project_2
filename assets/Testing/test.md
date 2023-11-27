@@ -102,7 +102,7 @@ The Chrome Light House testing was used to audit the performance, accessibility,
 
 2. Mobile
    - Mobile [Full report can be found here](assets/testing/LHmobile.json)
-   - ![Mobile Facilities Page Results](assets/testing/LHmobile.png "Light House mobile results")
+   - ![Mobile Facilities Page Results](LHmobile.png "Light House mobile results")
 
 [Back to top](#love-logo---testing)
 </br>
