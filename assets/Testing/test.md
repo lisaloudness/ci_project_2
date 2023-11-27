@@ -1,10 +1,10 @@
 # **Love Logo - Testing**
 
-[Main README.md file](/README.md)
+**[Main README.md file](/README.md)**
 
-[View live project](https://lisaloudness.github.io/ci_project_2/)
+**[View live project](https://lisaloudness.github.io/ci_project_2/)**
 
-[View Github repository](https://github.com/lisaloudness/ci_project_2)
+**[View Github repository](https://github.com/lisaloudness/ci_project_2)**
 
 </br>
 
@@ -15,8 +15,8 @@
   - [**Testing User Stories**](#testing-user-stories)
   - [**Manual Testing**](#manual-testing)
   - [**Automated Testing**](#automated-testing)
-    - [**Code Validation**](#code-validation)
-    - [**Browser Validation**](#browser-validation)
+    - [Code Validation](#code-validation)
+    - [Browser Validation](#browser-validation)
   - [**User Testing**](#user-testing)
 
 </br>
@@ -79,7 +79,7 @@
 
 ## **Automated Testing**
 
-### **Code Validation**
+### Code Validation
 
 JSHint was used to detect errors and potential problems in JavaScript code.
 [JSHint version 2.13.6](https://jshint.com/) - There were no errors detected.
@@ -92,13 +92,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - There were no error detected.
 ![CSS Validator, no error detected](w3_css.png "CSS Validation, no error detected")
 
-### **Browser Validation**
+### Browser Validation
 
 The Chrome Light House testing was used to audit the performance, accessibility, best practices, and SEO. Here are the results:
 
 1. Desktop
-   - Desktop [Full report can be found here](assets/testing/LHdesktop.json)
-   - ![Desktop Load Results](assets/testing/LHdesktop.png "Light House Desktop Results")
+   - Desktop [Full report can be found here](LHdesktop.json)
+   - ![Desktop Load Results](LHdesktop.png "Light House Desktop Results")
 
 2. Mobile
    - Mobile [Full report can be found here](assets/testing/LHmobile.json)
@@ -112,4 +112,5 @@ The Chrome Light House testing was used to audit the performance, accessibility,
 The website was shared with family and colleagues for their valued feedback. Common issues noted in the feedback were:
 
 - It would be nice to have the option to use corresponding keyboard keys.
+- A quit / home option is needed on mobile viewport. I agree with this and simply ran out of time to complete. The title always navigates to homescreen on other viewports.  
   
